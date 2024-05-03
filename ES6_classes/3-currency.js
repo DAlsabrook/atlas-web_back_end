@@ -31,7 +31,7 @@ export default class Currency {
   displayFullCurrency() {
     return `${this._name} (${this._code})`;
   }
-  
+
   validate(arg, attr) {
     if (typeof arg === 'string') {
       return true;
