@@ -1,9 +1,9 @@
 export default class Currency {
   constructor(code, name) {
-    if (this.validate(code, 'code')) {
+    if (Currency.validate(code, 'code')) {
       this._code = code;
     }
-    if (this.validate(name, 'name')) {
+    if (Currency.validate(name, 'name')) {
       this._name = name;
     }
   }
@@ -13,7 +13,7 @@ export default class Currency {
   }
 
   set code(newCode) {
-    if (this.validate(newCode, 'code')) {
+    if (Currency.validate(newCode, 'code')) {
       this._code = newCode;
     }
   }
@@ -23,7 +23,7 @@ export default class Currency {
   }
 
   set name(newName) {
-    if (this.validate(newName, 'name')) {
+    if (Currency.validate(newName, 'name')) {
       this._name = newName;
     }
   }
@@ -32,7 +32,7 @@ export default class Currency {
     return `${this._name} (${this._code})`;
   }
 
-  validate(arg, attr) {
+  static validate(arg, attr) {
     if (typeof arg !== 'string') {
       if (attr === 'name') {
         throw new TypeError('Name must be a string');
