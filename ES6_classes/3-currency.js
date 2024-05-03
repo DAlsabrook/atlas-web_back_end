@@ -33,14 +33,13 @@ export default class Currency {
   }
 
   validate(arg, attr) {
-    if (typeof arg === 'string') {
-      return true;
-    } else {
+    if (typeof arg !== 'string') {
       if (attr === 'name') {
         throw new TypeError('Name must be a string');
       } else if (attr === 'code') {
         throw new TypeError('Code must be a string');
       }
     }
+    return true;
   }
 }
