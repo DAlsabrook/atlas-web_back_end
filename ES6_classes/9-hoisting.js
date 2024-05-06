@@ -13,7 +13,7 @@ export class HolbertonClass {
   }
 }
 
-export class StudentHolberton{
+export class StudentHolberton {
   constructor(firstName, lastName, holbertonClass) {
     this._firstName = firstName;
     this._lastName = lastName;
@@ -25,7 +25,7 @@ export class StudentHolberton{
   }
 
   get holbertonClass() {
-    return this.holbertonClass;
+    return this._holbertonClass;
   }
 
   get fullStudentDescription() {
