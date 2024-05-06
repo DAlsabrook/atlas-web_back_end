@@ -1,4 +1,4 @@
-import Currency from "./3-currency";
+import Currency from './3-currency';
 
 export default class Pricing {
   constructor(amount, currency) {
@@ -26,7 +26,7 @@ export default class Pricing {
 
   set currency(newCurrency) {
     if (Pricing.validate(newCurrency, 'currency')) {
-      this._currency = newCurrency
+      this._currency = newCurrency;
     }
   }
 
@@ -45,11 +45,11 @@ export default class Pricing {
   }
 
   static convertPrice(amount, conversionRate) {
-    if (!(Pricing.validate(amount, 'amount'))) {
-      return;
+    if (typeof amount !== 'number') {
+      throw new TypeError('Amount must be a number.');
     }
-    if (!(typeof conversionRate === 'number')) {
-      throw new TypeError('Conversion Rate must be a number')
+    if (typeof conversionRate !== 'number') {
+      throw new TypeError('Conversion Rate must be a number');
     }
     return amount * conversionRate;
   }
