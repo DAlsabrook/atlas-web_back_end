@@ -403,3 +403,4 @@ package-lock.json
 package.json
 ES6_classes/test.js
 ES6_classes/hoisting_test.js
+ES6_data_manipulation/test.js
