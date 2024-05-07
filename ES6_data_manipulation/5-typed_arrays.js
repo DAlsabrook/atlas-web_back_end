@@ -5,5 +5,5 @@ export default function createInt8TypedArray(length, position, value) {
   let ab = new ArrayBuffer(length); //Arraybuffer() takes in its size in bytes
   let view = new Int8Array(ab); //creatte a data view to look at and change ab
   view[position] = value; // set new number in array buffer
-  return view;
+  return ab;
 }
