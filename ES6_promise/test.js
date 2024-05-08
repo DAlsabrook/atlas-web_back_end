@@ -1,4 +1,3 @@
-import handleResponseFromAPI from "./2-then.js";
+import signUpUser from './4-user-promise.js';
 
-const promise = Promise.resolve();
-console.log(handleResponseFromAPI(promise));
+console.log(signUpUser('David', 'Alsabrook'));
