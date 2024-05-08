@@ -1,3 +1,3 @@
-import uploadPhoto from './5-photo-reject.js';
+import handleProfileSignup from './6-final-user.js';
 
-console.log(uploadPhoto('filnameTest'));
+console.log(handleProfileSignup("Bob", "Dylan", "bob_dylan.jpg"));
