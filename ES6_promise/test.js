@@ -1,5 +1,5 @@
+import guardrail from './9-try.js';
 import divideFunction from './8-try.js';
 
-console.log(divideFunction(10, 2));
-console.log(divideFunction(10, 0));
-
+console.log(guardrail(() => { return divideFunction(10, 2) }));
+console.log(guardrail(() => { return divideFunction(10, 0) }));
