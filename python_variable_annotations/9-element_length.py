@@ -5,7 +5,7 @@ Module to practice duck typing
 from typing import Iterable, List, Tuple, Sequence
 
 
-def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence,int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """Retuns a list of tuples which contains a variable and its length
 
     Args:
