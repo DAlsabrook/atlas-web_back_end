@@ -3,7 +3,8 @@ import math
 """
 2-floor.py
 
-This module contains a function floor() which takes a float n as argument and returns the floor of the float.
+This module contains a function floor() which takes a float n as argument and
+returns the floor of the float.
 """
 
 
