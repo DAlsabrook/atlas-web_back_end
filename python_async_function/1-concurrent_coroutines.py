@@ -21,10 +21,10 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
         List[float]: list of delays used
     """
     delay_list = [await wait_random(max_delay) for i in range(0, n)]
-    bubble_sort(delay_list)
+    bubble(delay_list)
     return delay_list
 
-def bubble_sort(list: List[Union[int, float]]):
+def bubble(list: List[Union[int, float]]):
     n = len(list)
     for i in range(n):
         for j in range(0, n-i-1):
