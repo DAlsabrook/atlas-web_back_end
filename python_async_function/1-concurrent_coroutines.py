@@ -24,6 +24,7 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     bubble(delay_list)
     return delay_list
 
+
 def bubble(list: List[Union[int, float]]):
     n = len(list)
     for i in range(n):
