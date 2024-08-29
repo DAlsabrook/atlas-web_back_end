@@ -5,8 +5,9 @@ argument (max_delay, with a default value of 10) named wait_random that waits
 for a random delay between 0 and max_delay (included and float value) seconds
 and eventually returns it.
 """
-from typing import List, Callable, Union
-wait_random: Callable = __import__('0-basic_async_syntax').wait_random
+import asyncio
+from typing import List, Union
+wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
@@ -38,3 +39,7 @@ def bubble(list: List[Union[int, float]]):
                 tmp = list[j]
                 list[j] = list[j+1]
                 list[j+1] = tmp
+
+# print(asyncio.run(wait_n(5, 5)))
+# print(asyncio.run(wait_n(10, 7)))
+# print(asyncio.run(wait_n(10, 0)))
