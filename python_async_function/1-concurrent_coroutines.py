@@ -26,6 +26,11 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
 
 
 def bubble(list: List[Union[int, float]]):
+    """Function to organize a list in ascending order
+
+    Args:
+        list (List[Union[int, float]]): List to sort
+    """
     n = len(list)
     for i in range(n):
         for j in range(0, n-i-1):
