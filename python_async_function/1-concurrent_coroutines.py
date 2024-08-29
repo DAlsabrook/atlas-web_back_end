@@ -5,7 +5,7 @@ argument (max_delay, with a default value of 10) named wait_random that waits
 for a random delay between 0 and max_delay (included and float value) seconds
 and eventually returns it.
 """
-from typing import List, Callable
+from typing import List, Callable, Union
 wait_random: Callable = __import__('0-basic_async_syntax').wait_random
 
 
@@ -21,4 +21,14 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
         List[float]: list of delays used
     """
     delay_list = [await wait_random(max_delay) for i in range(0, n)]
+    bubble_sort(delay_list)
     return delay_list
+
+def bubble_sort(list: List[Union[int, float]]):
+    n = len(list)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if list[j] > list[j+1]:
+                tmp = list[j]
+                list[j] = list[j+1]
+                list[j+1] = tmp
