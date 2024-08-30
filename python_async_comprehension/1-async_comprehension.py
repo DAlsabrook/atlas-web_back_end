@@ -2,6 +2,15 @@
 """
 Module that calls an async generator
 """
+# import asyncio
+async_generator = __import__('0-async_generator').async_generator
+from typing import List
 
 
+async def async_comprehention() -> List[float]:
+    """coroutine that get 10 numbers from an async generator
+    in an async for
+    """
+    return[randNumber async for randNumber in async_generator()]
 
+# print(asyncio.run(async_comprehention()))
