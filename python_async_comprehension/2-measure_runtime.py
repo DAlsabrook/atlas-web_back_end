@@ -21,4 +21,4 @@ async def measure_runtime() -> float:
     endTime = time.time()
     return endTime - startTime
 
-print(asyncio.run(measure_runtime()))
+# print(asyncio.run(measure_runtime()))
