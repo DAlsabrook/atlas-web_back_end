@@ -1,13 +1,31 @@
 #!/usr/bin/env python3
-BaseCaching = __import__('./base_caching.py').BaseCaching
+"""
+Module that contains a calss for caching
+"""
+
+
+# BaseCaching = __import__('./base_caching.py').BaseCaching
+from base_caching import BaseCaching
 
 class BasicCache(BaseCaching):
+    """Class to interact with a cache
+
+    Inherits:
+        BaseCaching (_type_): Base class to inherit
+    """
 
     def init(self):
+        """initiliaze class
+        """
         super().init()
 
     def put(self, key, item):
-        print('hi')
+        """Add key, value to cache object
+        """
+        if key and item:
+            self.cache_data[key] = item
 
     def get(self, key):
-        print('hello')
+        """Get an item from the cache
+        """
+        return self.cache_data.get(key)
