@@ -1,18 +1,20 @@
 #!/usr/bin/env python3
 """
-Module for a function pagination set up
+Module for a function pagination set up for pagination
 """
 import csv
-import math
 from typing import List
 
 
 class Server:
-    """Server class to paginate a database of popular baby names.
+    """
+    Server class to paginate a database of popular baby names.
     """
     DATA_FILE = "Popular_Baby_Names.csv"
 
     def __init__(self):
+        """Initialize the class
+        """
         self.__dataset = None
 
     def dataset(self) -> List[List]:
@@ -27,6 +29,8 @@ class Server:
         return self.__dataset
 
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
+        """Method to get a specific page from the dataset
+        """
         assert isinstance(page, int) and isinstance(page_size, int), """
         raised when page and/or page_size are not ints
         """
