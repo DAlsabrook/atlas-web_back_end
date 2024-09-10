@@ -2,10 +2,8 @@
 """
 Module that contains a calss for caching
 """
-
-
-# BaseCaching = __import__('./base_caching.py').BaseCaching
 from base_caching import BaseCaching
+
 
 class BasicCache(BaseCaching):
     """Class to interact with a cache
