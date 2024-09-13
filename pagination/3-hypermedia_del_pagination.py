@@ -40,4 +40,60 @@ class Server:
         return self.__indexed_dataset
 
     def get_hyper_index(self, index: int = None, page_size: int = 10) -> Dict:
-            pass
+        """Get hypermedia pagination with index
+        """
+        assert isinstance(index, int) and index >= 0, "AssertionError raised when out of range"
+        assert isinstance(page_size, int) and page_size > 0, "AssertionError raised when out of range"
+
+        indexed_dataset = self.indexed_dataset()
+        total_items = len(indexed_dataset)
+        assert index < total_items, "Index out of range"
+
+        data = []
+        current_index = index
+        while len(data) < page_size and current_index < total_items:
+            if current_index in indexed_dataset:
+                data.append(indexed_dataset[current_index])
+            current_index += 1
+
+        next_index = current_index if current_index < total_items else None
+
+        return {
+            'index': index,
+            'next_index': next_index,
+            'page_size': page_size,
+            'data': data
+        }
+
+
+# server = Server()
+
+# server.indexed_dataset()
+
+# try:
+#     server.get_hyper_index(300000, 100)
+# except AssertionError:
+#     print("AssertionError raised when out of range")
+
+
+# index = 3
+# page_size = 2
+
+# print("Nb items: {}".format(len(server._Server__indexed_dataset)))
+
+# # 1- request first index
+# res = server.get_hyper_index(index, page_size)
+# print(res)
+
+# # 2- request next index
+# print(server.get_hyper_index(res.get('next_index'), page_size))
+
+# # 3- remove the first index
+# del server._Server__indexed_dataset[res.get('index')]
+# print("Nb items: {}".format(len(server._Server__indexed_dataset)))
+
+# # 4- request again the initial index -> the first data retreives is not the same as the first request
+# print(server.get_hyper_index(index, page_size))
+
+# 5- request again initial next index -> same data page as the request 2-
+print(server.get_hyper_index(res.get('next_index'), page_size))
