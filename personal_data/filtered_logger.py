@@ -10,6 +10,8 @@ def filter_datum(fields: List[str], redaction: str,
                  message: str, separator: str) -> str:
     """
     function to hide specific fields from a string with regex
+
+    Returns a single string with fields hidden by what is passed to redaction.
     """
     pattern = f"({'|'.join(fields)})=[^{separator}]*"
     return re.sub(pattern, f"\\1={redaction}", message)
