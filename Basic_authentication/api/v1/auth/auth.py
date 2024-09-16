@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 """
 Module to handle function for authorization
 """
@@ -23,5 +23,5 @@ class Auth():
         return None
 
     def current_user(self, request=None) -> TypeVar('User'):
-        """And again... no idea"""
+        """And again... no idea what this does"""
         return None
