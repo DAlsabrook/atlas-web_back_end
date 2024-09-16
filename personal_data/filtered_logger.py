@@ -25,7 +25,8 @@ class RedactingFormatter(logging.Formatter):
         """This method formats the record.msg to be obfuscated
         """
         # should print format with correct info
-        userInfo = filter_datum(self.fields, self.REDACTION, record.getMessage(), self.SEPARATOR)
+        userInfo = filter_datum(self.fields, self.REDACTION,
+                                record.getMessage(), self.SEPARATOR)
         # print(userInfo)
         record.msg = userInfo
         # print(record.getMessage())
@@ -41,8 +42,3 @@ def filter_datum(fields: List[str], redaction: str,
     """
     pattern = f"({'|'.join(fields)})=[^{separator}]*"
     return re.sub(pattern, f"\\1={redaction}", message)
-
-# message = "name=Bob;email=bob@dylan.com;ssn=000-123-0000;password=bobby2019;"
-# log_record = logging.LogRecord("my_logger", logging.INFO, None, None, message, None, None)
-# formatter = RedactingFormatter(fields=("email", "ssn", "password"))
-# print(formatter.format(log_record))
