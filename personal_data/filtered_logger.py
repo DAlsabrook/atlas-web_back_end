@@ -56,7 +56,3 @@ def filter_datum(fields: List[str], redaction: str,
     """
     pattern = f"({'|'.join(fields)})=[^{separator}]*"
     return re.sub(pattern, f"\\1={redaction}", message)
-
-print(get_logger.__annotations__.get('return'))
-print(get_logger())
-print("PII_FIELDS: {}".format(len(PII_FIELDS)))
