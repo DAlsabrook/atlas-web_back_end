@@ -5,7 +5,7 @@ This module contains the functions used to hide personal data
 import re
 from typing import List
 import logging
-PII_FIELDS = ['name', 'email', 'phone', 'ssn', 'password']
+PII_FIELDS = ('name', 'email', 'phone', 'ssn', 'password')
 
 
 class RedactingFormatter(logging.Formatter):
@@ -38,8 +38,10 @@ def get_logger() -> logging.Logger:
     """The method creates a custom logger
     """
     logger = logging.getLogger('user_data')
+    logger.level = logging.INFO
+    logger.propagate = False
     handler = logging.StreamHandler()
-    formatter = logging.Formatter(RedactingFormatter(PII_FIELDS))
+    formatter = RedactingFormatter(list(PII_FIELDS))
     handler.setFormatter(formatter)
     logger.addHandler(handler)
     return logger
@@ -55,4 +57,6 @@ def filter_datum(fields: List[str], redaction: str,
     pattern = f"({'|'.join(fields)})=[^{separator}]*"
     return re.sub(pattern, f"\\1={redaction}", message)
 
-# Great video for the get_logger function and how to set up a logger
+print(get_logger.__annotations__.get('return'))
+print(get_logger())
+print("PII_FIELDS: {}".format(len(PII_FIELDS)))
