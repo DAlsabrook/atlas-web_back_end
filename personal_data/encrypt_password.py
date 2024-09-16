@@ -12,6 +12,6 @@ def hash_password(password: str) -> bytes:
     hashed_password = bcrypt.hashpw(password.encode(), salt)
     return hashed_password
 
-password = "MyAmazingPassw0rd"
-print(hash_password(password))
-print(hash_password(password))
+# password = "MyAmazingPassw0rd"
+# print(hash_password(password))
+# print(hash_password(password))
