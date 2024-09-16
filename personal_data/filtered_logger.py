@@ -76,14 +76,22 @@ def get_db() -> connection.MySQLConnection:
         database=db_name
     )
 
+
 if __name__ == "__main__":
     db = get_db()
     cursor = db.cursor()
     cursor.execute("SELECT * FROM users;")
     for row in cursor:
-        row_str = f"name={row[0]}; email={row[1]}; phone={row[2]}; ssn={row[3]}; password={row[4]}; ip={row[5]}; last_login={row[6]}; user_agent={row[7]}"
+        row_str = f"""
+        name={row[0]};
+        email={row[1]};
+        phone={row[2]};
+        ssn={row[3]};
+        password={row[4]};
+        ip={row[5]};
+        last_login={row[6]};
+        user_agent={row[7]}"""
         logger = get_logger()
         logger.info(row_str)
     cursor.close()
     db.close()
-
