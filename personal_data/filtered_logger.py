@@ -38,7 +38,7 @@ def get_logger() -> logging.Logger:
     """The method creates a custom logger
     """
     logger = logging.getLogger('user_data')
-    logger.level = logging.INFO
+    logger.setLevel(logging.INFO)
     logger.propagate = False
     handler = logging.StreamHandler()
     formatter = RedactingFormatter(list(PII_FIELDS))
