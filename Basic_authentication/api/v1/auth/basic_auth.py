@@ -9,5 +9,6 @@ class BasicAuth(Auth):
 
     def __init__(self):
         """initialize basic auth"""
+        super().__init__()
 
 
