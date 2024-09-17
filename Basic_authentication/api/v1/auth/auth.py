@@ -16,7 +16,6 @@ class Auth():
 
     def require_auth(self, path: str, excluded_paths: List[str]) -> bool:
         """No idea what this does"""
-        print('in require_auth function')
         if (path is None
                 or excluded_paths is None
                 or excluded_paths is ""):
