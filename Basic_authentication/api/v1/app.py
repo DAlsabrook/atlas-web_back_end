@@ -24,6 +24,7 @@ if auth_type:
 
 @app.before_request
 def before_req():
+    """Function to handle all request authorization"""
     # print('in before req')
     # print(f'Auth instance: {auth}')
     if auth is None:
