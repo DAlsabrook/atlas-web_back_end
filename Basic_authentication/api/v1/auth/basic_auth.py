@@ -17,8 +17,8 @@ class BasicAuth(Auth):
         """returns base64 part of the request header
         """
         if (authorization_header is None or not isinstance(
-            authorization_header, str
-            )):
+                authorization_header, str
+                )):
             return None
         if authorization_header.startswith('Basic'):
             tokenized = authorization_header.split(' ')
@@ -26,18 +26,17 @@ class BasicAuth(Auth):
                 return tokenized[1]
         return None
 
-
     def decode_base64_authorization_header(self,
                                            base64_authorization_header:
                                            str) -> str:
         """returns base64 part of the request header
         """
         if base64_authorization_header is None or not isinstance(
-            base64_authorization_header,str
-            ):
+                base64_authorization_header, str
+                ):
             return None
         try:
             decoded_bytes = base64.b64decode(base64_authorization_header)
             return decoded_bytes.decode('utf-8')
-        except:
+        except (UnicodeDecodeError):
             return None
