@@ -16,6 +16,7 @@ class Auth():
 
     def require_auth(self, path: str, excluded_paths: List[str]) -> bool:
         """No idea what this does"""
+        print('in require_auth function')
         if (path is None
                 or excluded_paths is None
                 or excluded_paths is ""):
@@ -32,7 +33,9 @@ class Auth():
 
     def authorization_header(self, request=None) -> str:
         """No idea what this does either"""
-        return None
+        if request is None:
+            return None
+        return request.headers.get('Authorization', None)
 
     def current_user(self, request=None) -> TypeVar('User'):
         """And again... no idea what this does"""
