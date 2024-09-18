@@ -23,6 +23,7 @@ def view_authenticated_user() -> str:
       - Authenticated User object JSON represented
       - 404 if no user is authenticated
     """
+    print('In /me route')
     if request.current_user is None:
         abort(404)
     return jsonify(request.current_user.to_json())
