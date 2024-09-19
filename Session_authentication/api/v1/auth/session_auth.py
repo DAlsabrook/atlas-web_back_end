@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Module that does nothing
+Module that does nothing besides pass
 """
 from auth import Auth
 
