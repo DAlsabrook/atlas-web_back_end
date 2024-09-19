@@ -41,9 +41,9 @@ def before_req():
     # print(f'Authorization header: {auth_header}')
     if auth_header is None:
         abort(401)
-    current_user = auth.current_user(request)
+    request.current_user = auth.current_user(request)
     # print(f'Current user: {current_user}')
-    if current_user is None:
+    if request.current_user is None:
         abort(403)
 
 
