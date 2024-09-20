@@ -19,7 +19,6 @@ def status() -> str:
     return jsonify({"message": "Bienvenue"})
 
 
-
 @app.route('/users', methods=['POST'], strict_slashes=False)
 def users():
     """ POST a user
@@ -29,10 +28,10 @@ def users():
     email = request.form['email']
     password = request.form['password']
     try:
-      AUTH.register_user(email, password)
-      return jsonify({"email": email, "message": "user created"}), 200
+        AUTH.register_user(email, password)
+        return jsonify({"email": email, "message": "user created"}), 200
     except ValueError:
-      return jsonify({"message": "email already registered"}), 400
+        return jsonify({"message": "email already registered"}), 400
 
 
 if __name__ == "__main__":
