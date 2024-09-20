@@ -5,8 +5,14 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm.session import Session
+import logging
 
 from user import Base, User
+
+# Set logging level to WARNING to suppress SQLAlchemy INFO logs
+logging.basicConfig()
+logging.getLogger('sqlalchemy.engine').setLevel(logging.WARNING)
+
 
 
 class DB:
