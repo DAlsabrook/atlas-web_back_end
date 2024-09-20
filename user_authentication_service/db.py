@@ -71,16 +71,13 @@ class DB:
         if user_id is None:
             raise ValueError
 
-        try:
-            user = self.find_user_by(id=user_id)
+        user = self.find_user_by(id=user_id)
 
-            # Validate all kwargs are actual user attributes
-            for attr in kwargs.keys():
-                if not hasattr(User, attr):
-                    raise InvalidRequestError
-                setattr(user, attr, kwargs[attr])
+        # Validate all kwargs are actual user attributes
+        for attr in kwargs.keys():
+            if not hasattr(User, attr):
+                raise ValueError
+            setattr(user, attr, kwargs[attr])
 
-            self._session.commit()
-            return None
-        except NoResultFound:
-            raise NoResultFound
+        self._session.commit()
+        return None
