@@ -42,7 +42,7 @@ class Auth():
         return None
 
     def session_cookie(self, request=None):
-        """_summary_
+        """returns a cookie value from a reques
 
         Args:
             request (_type_, optional): _description_. Defaults to None.

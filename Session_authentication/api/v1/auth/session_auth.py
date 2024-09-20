@@ -4,6 +4,7 @@ Module that does nothing besides pass
 """
 from api.v1.auth.auth import Auth
 import uuid
+from models.user import User
 
 
 class SessionAuth(Auth):
@@ -41,3 +42,13 @@ class SessionAuth(Auth):
         if session_id is None or not isinstance(session_id, str):
             return None
         return self.user_id_by_session_id.get(session_id)
+
+    def current_user(self, request=None):
+        """_summary_
+
+        Args:
+            request (_type_, optional): _description_. Defaults to None.
+        """
+        cookie = self.session_cookie(request) # returns cookie value SESSION_NAME
+        userId = self.user_id_for_session_id(cookie) # Gets user by sessionId from dict
+        return User.get(userId) # Needs the userId to get user from DB
