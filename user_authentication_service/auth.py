@@ -5,6 +5,7 @@ Module to handle auth to get things from the DB
 import bcrypt
 from db import DB
 from user import User
+from sqlalchemy.exc import NoResultFound
 
 
 class Auth:
@@ -24,12 +25,13 @@ class Auth:
         Returns:
             User: user object
         """
-        user = self._db.find_user_by(email=email)
-        if user:
+        try:
+            user = self._db.find_user_by(email=email)
             raise ValueError(f"User {email} already exists")
-        hashed_pass = _hash_password(password)
-        user = self._db.add_user(email, hashed_pass)
-        return user
+        except NoResultFound:
+            hashed_pass = _hash_password(password)
+            user = self._db.add_user(email, hashed_pass)
+            return user
 
 
 def _hash_password(password: str) -> bytes:
