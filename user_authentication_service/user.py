@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
+"""Module that contains the user class for squalchamy table setup"""
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
+
 
 class User(Base):
     """User class for the user table
