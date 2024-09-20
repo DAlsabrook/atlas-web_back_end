@@ -56,3 +56,20 @@ class SessionAuth(Auth):
         # Gets user by sessionId from dict
 
         return User.get(userId)
+
+    def destroy_session(self, request=None):
+        """ends session when called
+
+        Args:
+            request (_type_, optional): _description_. Defaults to None.
+        """
+        if request is None:
+            return False
+        sessionCookie =  self.session_cookie(request)
+        if not sessionCookie:
+            return False
+        user = self.user_id_for_session_id(sessionCookie)
+        if not user:
+            return False
+        del self.user_id_by_session_id[sessionCookie]
+        return True
