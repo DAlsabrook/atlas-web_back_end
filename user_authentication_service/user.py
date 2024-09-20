@@ -1,5 +1,13 @@
+#!/usr/bin/env python3
 from sqlalchemy import Column, Integer, String
-class User(Base):
+
+
+class User():
+    """User class for the user table
+
+    Returns:
+        str: string representation of the user
+    """
     __tablename__ = 'users'
 
     id = Column(Integer, primary_key=True)
