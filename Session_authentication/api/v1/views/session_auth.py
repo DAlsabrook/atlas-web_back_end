@@ -3,7 +3,7 @@
 Routes for session auth
 """
 from api.v1.views import app_views
-from flask import abort, jsonify, request
+from flask import abort, jsonify, request, make_response
 from models.user import User
 import os
 
@@ -31,7 +31,7 @@ def login() -> str:
 
     from api.v1.app import auth
     session_id = auth.create_session(user.id)
-    response = user.to_json()
+    response = make_response(user.to_json())
     response.set_cookie(os.getenv('SESSION_NAME',
                                   '_my_session_id'), session_id)
     return response
