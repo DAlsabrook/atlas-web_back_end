@@ -4,6 +4,7 @@ Module to handle function for authorization
 """
 from flask import request
 from typing import List, TypeVar
+import os
 
 
 class Auth():
@@ -39,3 +40,14 @@ class Auth():
     def current_user(self, request=None) -> TypeVar('User'):
         """And again... no idea what this does"""
         return None
+
+    def session_cookie(self, request=None):
+        """_summary_
+
+        Args:
+            request (_type_, optional): _description_. Defaults to None.
+        """
+        if request is None:
+            return None
+        SESSION_NAME = os.getenv('SESSION_NAME', '_my_session_id')
+        return request.cookies.get(SESSION_NAME)
