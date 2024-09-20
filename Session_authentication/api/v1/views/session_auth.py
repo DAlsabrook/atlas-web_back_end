@@ -46,6 +46,6 @@ def logout() -> str:
     """
     from api.v1.app import auth
     removed = auth.destroy_session(request)
-    if removed:
+    if not removed:
         abort(404)
     return jsonify({}), 200
