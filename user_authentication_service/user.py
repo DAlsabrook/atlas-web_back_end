@@ -8,7 +8,7 @@ class User():
     Returns:
         str: string representation of the user
     """
-    __table__ = 'users'
+    __tablename__ = 'users'
 
     id = Column(Integer, primary_key=True)
     email = Column(String, nullable=False)
