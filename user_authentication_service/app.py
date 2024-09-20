@@ -20,14 +20,14 @@ def status() -> str:
 
 
 
-@app.route('/users', methods=['POST'])
+@app.route('/users', methods=['POST'], strict_slashes=False)
 def users(email: str, password: str) -> str:
     """ POST a user
     Return:
       - JSON message
     """
     try:
-      user = AUTH.register_user(email, password)
+      AUTH.register_user(email, password)
       return jsonify({"email": email, "message": "user created"}), 200
     except ValueError:
       return jsonify({"message": "email already registered"}), 400
