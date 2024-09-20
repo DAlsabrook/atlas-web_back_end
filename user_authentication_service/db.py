@@ -61,3 +61,26 @@ class DB:
         if sessionQuery is None:
             raise NoResultFound
         return sessionQuery
+
+    def update_user(self, user_id: int = None, **kwargs) -> None:
+        """Update an existing user
+
+        Args:
+            user_id (int): id of user you wish to update
+        """
+        if user_id is None:
+            raise ValueError
+
+        try:
+            user = self.find_user_by(id=user_id)
+
+            # Validate all kwargs are actual user attributes
+            for attr in kwargs.keys():
+                if not hasattr(User, attr):
+                    raise InvalidRequestError
+                setattr(user, attr, kwargs[attr])
+
+            self._session.commit()
+            return None
+        except NoResultFound:
+            raise NoResultFound
