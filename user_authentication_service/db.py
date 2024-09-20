@@ -55,7 +55,7 @@ class DB:
         """
         for key in kwargs.keys():
             if not hasattr(User, key):
-             raise InvalidRequestError
+                raise InvalidRequestError
 
         sessionQuery = self._session.query(User).filter_by(**kwargs).first()
         if sessionQuery is None:
