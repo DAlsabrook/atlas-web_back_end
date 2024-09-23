@@ -27,11 +27,13 @@ class TestAccessNestedMap(unittest.TestCase):
         ({"a": 1}, ("a", "b"), KeyError)
     ])
     def test_access_nested_map_exception(self, nested_map, path, expected):
+        """Test function raises exception correct"""
         with self.assertRaises(expected):
             access_nested_map(nested_map, path)
 
 
 class TestGetJson(unittest.TestCase):
+    """Test class for http calls to be mocked"""
 
     @parameterized.expand([
         ("http://example.com", {"payload": True}),
