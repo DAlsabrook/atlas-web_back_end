@@ -111,7 +111,6 @@ class Auth:
         self._db.update_user(user.id, reset_token=reset_token)
         return reset_token
 
-
     def update_password(self, reset_token: str, password: str) -> None:
         """Update the user's password using the reset token
 
