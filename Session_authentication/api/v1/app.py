@@ -4,7 +4,7 @@ Route module for the API
 """
 from os import getenv
 from api.v1.views import app_views
-from flask import Flask, jsonify, abort, request
+from flask import Flask, jsonify, abort, request, make_response
 from flask_cors import (CORS, cross_origin)
 import os
 
@@ -48,6 +48,26 @@ def before_req():
     if request.current_user is None:
         abort(403)
 
+@app.route('/sessions', methods=['POST'])
+def login():
+    """Login function to respond to POST /sessions"""
+    email = request.form.get('email')
+    password = request.form.get('password')
+
+    if not email or not password:
+        abort(401)
+
+    if not auth.valid_login(email, password):
+        abort(401)
+
+    user = auth.current_user(request)
+    if user is None:
+        abort(401)
+
+    session_id = auth.create_session(user.id)
+    response = make_response(jsonify({"message": "Logged in"}))
+    response.set_cookie("session_id", session_id)
+    return response
 
 @app.errorhandler(401)
 def not_authorized(error) -> str:
