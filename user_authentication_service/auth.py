@@ -111,23 +111,23 @@ class Auth:
         except NoResultFound:
             ValueError
 
-def update_password(self, reset_token: str, password: str) -> None:
-    """Update the user's password using the reset token
+    def update_password(self, reset_token: str, password: str) -> None:
+        """Update the user's password using the reset token
 
-    Args:
-        reset_token (str): Reset token to identify the user
-        password (str): New password to set
+        Args:
+            reset_token (str): Reset token to identify the user
+            password (str): New password to set
 
-    Raises:
-        ValueError: If the reset token is invalid
-    """
-    try:
-        user = self._db.find_user_by(reset_token=reset_token)
-    except NoResultFound:
-        raise ValueError("Invalid reset token")
+        Raises:
+            ValueError: If the reset token is invalid
+        """
+        try:
+            user = self._db.find_user_by(reset_token=reset_token)
+        except NoResultFound:
+            raise ValueError("Invalid reset token")
 
-    new_hashed_password = _hash_password(password)
-    self._db.update_user(user.id, hashed_password=new_hashed_password, reset_token=None)
+        new_hashed_password = _hash_password(password)
+        self._db.update_user(user.id, hashed_password=new_hashed_password, reset_token=None)
 
 
 def _generate_uuid() -> str:
