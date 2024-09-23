@@ -5,7 +5,7 @@ from utils import access_nested_map
 from parameterized import parameterized
 
 
-class Test_utils(unittest.TestCase):
+class TestAccessNestedMap(unittest.TestCase):
     """Test class
 
     Args:
