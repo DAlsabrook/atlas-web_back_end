@@ -51,20 +51,32 @@ class TestGetJson(unittest.TestCase):
 
 
 class TestMemoize(unittest.TestCase):
+    """Test memoization
+
+    Args:
+        unittest (_type_): unittest module
+    """
 
     def test_memoize(self):
+        """Test the memoize wrapper function
+        """
         class TestClass:
+            """Test class"""
 
             def a_method(self):
+                """Method to test calling"""
                 return 42
 
             @memoize
             def a_property(self):
+                """Method to wrap with memoize"""
                 return self.a_method()
 
         testClassInstance = TestClass()
 
-        with patch.object(testClassInstance, 'a_method', return_value=42) as mock_a_method:
+        with patch.object(testClassInstance,
+                          'a_method',
+                          return_value=42) as mock_a_method:
             self.assertEqual(testClassInstance.a_property, 42)
             self.assertEqual(testClassInstance.a_property, 42)
             mock_a_method.assert_called_once()
