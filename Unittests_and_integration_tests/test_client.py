@@ -80,7 +80,7 @@ expected_repos = ["repo1", "repo2", "repo3"]
 apache2_repos = ["repo1", "repo2"]
 
 @parameterized_class([
-    {"org_payload": org_payload, "repos_payload": repos_payload, "expected_repos": expected_repos, "apache2_repos": apache2_repos}
+    {"org_payload": org_payload, "repos_payload": repos_payload, "expected_repos": expected_repos, "apache2_repos": apache2_repos, "TEST_PAYLOAD": test_payload}
 ])
 class TestIntegrationGithubOrgClient(unittest.TestCase):
     """_summary_
