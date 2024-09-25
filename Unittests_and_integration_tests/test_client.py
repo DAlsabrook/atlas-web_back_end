@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Testing client stuffs"""
 import unittest
-from parameterized import parameterized
+from parameterized import parameterized, parameterized_class
 from client import GithubOrgClient
 from unittest.mock import patch, PropertyMock
+from fixtures import TEST_PAYLOAD
+
 
 
 class TestGithubOrgClient(unittest.TestCase):
