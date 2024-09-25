@@ -21,6 +21,14 @@ class TestGithubOrgClient(unittest.TestCase):
         getJson.assert_called_once_with(f'https://api.github.com/orgs/{org}')
         self.assertEqual(result, expected)
 
+    @patch('client.GithubOrgClient.org', return_value={'https://api.github.com/orgs/google'})
+    def test_public_repos_url(self):
+        """Testing githubOrgClient._public_repos_url"""
+        githubOrg = GithubOrgClient('google')
+        mockedResult = githubOrg.org()
+        result = githubOrg._public_repos_url()
+        self.asserEqual(mockedResult, result)
+
 
 if __name__ == "__main__":
     unittest.main()
