@@ -4,7 +4,7 @@ Module to handle a redis cache
 """
 import uuid
 import redis
-from typing import Union
+from typing import Union, Callable
 
 
 class Cache():
@@ -19,3 +19,10 @@ class Cache():
         randomKey = str(uuid.uuid4())
         self._redis.set(randomKey, data)
         return randomKey
+
+    def get(self, key: str, fn: Callable):
+        """Run a cache object through a function if exists"""
+        cacheValue = self._redis.get(key)
+        if (not cacheValue):
+            return cacheValue
+        return fn(cacheValue)
