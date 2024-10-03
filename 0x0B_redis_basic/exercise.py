@@ -26,3 +26,11 @@ class Cache():
         if (not cacheValue):
             return cacheValue
         return fn(cacheValue)
+
+    def get_str(self, key: str) -> Union[str, None]:
+        """Get a string value from the cache"""
+        return self.get(key, lambda x: str(x))
+
+    def get_int(self, key: str) -> Union[int, None]:
+        """Get an integer value from the cache"""
+        return self.get(key, lambda x: int(x))
