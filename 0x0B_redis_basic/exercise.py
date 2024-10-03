@@ -20,17 +20,22 @@ class Cache():
         self._redis.set(randomKey, data)
         return randomKey
 
-    def get(self, key: str, fn: Callable):
+    def get(self, key: str, fn: Callable = None):
         """Run a cache object through a function if exists"""
         cacheValue = self._redis.get(key)
-        if (not cacheValue):
-            return cacheValue
+        if cacheValue is None:
+            return None
+        if fn is None:
+            return cacheValue.decode('utf-8')
         return fn(cacheValue)
 
     def get_str(self, key: str) -> Union[str, None]:
         """Get a string value from the cache"""
-        return self.get(key, lambda x: str(x))
+        return self.get(key, lambda x: x.decode('utf-8'))
 
     def get_int(self, key: str) -> Union[int, None]:
         """Get an integer value from the cache"""
-        return self.get(key, lambda x: int(x))
+        try:
+            return self.get(key, lambda x: int(x))
+        except ValueError:
+            raise ValueError()
