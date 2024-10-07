@@ -19,6 +19,22 @@ def count_calls(method: Callable) -> Callable:
     return methodHugger
 
 
+def call_history(method: Callable) -> Callable:
+    """Everytime the original function is called, add its input parameters
+    to one list in redis, and store its output into another list"""
+    @wraps(method)
+    def methodHugger(self, *args, **kwargs):
+        inputsKey = f"{method.__qualname__}:inputs"
+        self._redis.rpush(inputsKey, str(args))
+
+        result = method(self, *args, **kwargs)
+
+        outputsKey = f"{method.__qualname__}:outputs"
+        self._redis.rpush(outputsKey, str(result))
+        return result
+    return methodHugger
+
+
 class Cache():
 
     def __init__(self):
@@ -27,6 +43,7 @@ class Cache():
         self._redis.flushdb()
 
     @count_calls
+    @call_history
     def store(self, data: Union[str, bytes, int, float]) -> str:
         """store data"""
         randomKey = str(uuid.uuid4())
