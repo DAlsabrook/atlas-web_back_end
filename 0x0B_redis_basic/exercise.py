@@ -26,7 +26,7 @@ class Cache():
         if cacheValue is None:
             return None
         if fn is None:
-            return cacheValue.decode('utf-8')
+            return None
         return fn(cacheValue)
 
     def get_str(self, key: str) -> Union[str, None]:
