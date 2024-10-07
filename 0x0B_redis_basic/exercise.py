@@ -5,8 +5,21 @@ Module to handle a redis cache
 import uuid
 import redis
 from typing import Union, Callable
+from functools import wraps
 
 
+def count_calls(method: Callable) -> Callable:
+    """Decorator to count the number of calls to a method using Redis"""
+    @wraps(method)
+    def methodHugger(self, *args, **kwargs):
+        key = f"{method.__qualname__}_calls"
+        self._redis.incr(key) #increment value at key
+        result = method(self, *args, **kwargs)
+        return result
+    return methodHugger
+
+
+@count_calls
 class Cache():
 
     def __init__(self):
