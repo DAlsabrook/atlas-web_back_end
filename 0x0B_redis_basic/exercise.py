@@ -19,7 +19,6 @@ def count_calls(method: Callable) -> Callable:
     return methodHugger
 
 
-@count_calls
 class Cache():
 
     def __init__(self):
@@ -27,6 +26,7 @@ class Cache():
         self._redis = redis.Redis(host='localhost', port=6379, db=0)
         self._redis.flushdb()
 
+    @count_calls
     def store(self, data: Union[str, bytes, int, float]) -> str:
         """store data"""
         randomKey = str(uuid.uuid4())
