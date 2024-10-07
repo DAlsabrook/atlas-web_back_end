@@ -69,3 +69,22 @@ class Cache():
             return self.get(key, lambda x: int(x))
         except ValueError:
             raise ValueError()
+
+
+def replay(method: Callable) -> str:
+    """function to display the history of calls of a particular function"""
+    redis = method.__self__._redis
+    method_name = method.__qualname__
+
+    inputs_key = f"{method_name}:inputs"
+    outputs_key = f"{method_name}:outputs"
+
+    inputs = redis.lrange(inputs_key, 0, -1)
+    # Start at first element 0 and end at last element in list -1
+    outputs = redis.lrange(outputs_key, 0, -1)
+    # Grab method call count
+    call_count = redis.get(method_name).decode('utf-8')
+
+    print(f"{method_name} was called {call_count} times:")
+    for input, output in zip(inputs, outputs):
+        print(f"{method_name}(*{input.decode('utf-8')}) -> {output.decode('utf-8')}")
