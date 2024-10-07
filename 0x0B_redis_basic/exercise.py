@@ -12,8 +12,9 @@ def count_calls(method: Callable) -> Callable:
     """Decorator to count the number of calls to a method using Redis"""
     @wraps(method)
     def methodHugger(self, *args, **kwargs):
+        """Wraps calling mething and counts times method was called"""
         key = method.__qualname__
-        self._redis.incr(key) #increment value at key
+        self._redis.incr(key)  # Increment value at key
         result = method(self, *args, **kwargs)
         return result
     return methodHugger
@@ -24,6 +25,7 @@ def call_history(method: Callable) -> Callable:
     to one list in redis, and store its output into another list"""
     @wraps(method)
     def methodHugger(self, *args, **kwargs):
+        """wraps called method and stores inputs/outputs"""
         inputsKey = f"{method.__qualname__}:inputs"
         self._redis.rpush(inputsKey, str(args))
 
@@ -36,6 +38,7 @@ def call_history(method: Callable) -> Callable:
 
 
 class Cache():
+    """ Redis Cache class to locally store DB info"""
 
     def __init__(self):
         """initialize"""
@@ -45,7 +48,7 @@ class Cache():
     @count_calls
     @call_history
     def store(self, data: Union[str, bytes, int, float]) -> str:
-        """store data"""
+        """store data in local cache"""
         randomKey = str(uuid.uuid4())
         self._redis.set(randomKey, data)
         return randomKey
@@ -71,7 +74,7 @@ class Cache():
             raise ValueError()
 
 
-def replay(method: Callable) -> str:
+def replay(method: Callable):
     """function to display the history of calls of a particular function"""
     redis = method.__self__._redis
     method_name = method.__qualname__
@@ -87,4 +90,6 @@ def replay(method: Callable) -> str:
 
     print(f"{method_name} was called {call_count} times:")
     for input, output in zip(inputs, outputs):
-        print(f"{method_name}(*{input.decode('utf-8')}) -> {output.decode('utf-8')}")
+        print(f"""{
+            method_name
+            }(*{input.decode('utf-8')}) -> {output.decode('utf-8')}""")
