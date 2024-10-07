@@ -12,7 +12,7 @@ def count_calls(method: Callable) -> Callable:
     """Decorator to count the number of calls to a method using Redis"""
     @wraps(method)
     def methodHugger(self, *args, **kwargs):
-        key = f"{method.__qualname__}_calls"
+        key = method.__qualname__
         self._redis.incr(key) #increment value at key
         result = method(self, *args, **kwargs)
         return result
