@@ -1,115 +1,4872 @@
-origin	nb_fans
-USA	99349
-Sweden	47169
-Finland	32878
-United Kingdom	32518
-Germany	29486
-Norway	22405
-Canada	8874
-The Netherlands	8819
-Italy	7178
-France	7127
-Australia	5825
-Poland	5805
-Switzerland	3875
-Greece	3518
-Denmark	3084
-Brazil	3070
-Austria	2507
-Portugal	1873
-Russia	1836
-Spain	1832
-United Kingdom, USA	1684
-Japan	1494
-Ireland	1381
-Denmark, USA	1166
-Belgium	1041
-Israel	1040
-Ukraine	739
-Romania	722
-Faroe Islands	618
-Iceland	609
-Chile	544
-Hungary	538
-Czech Republic	414
-Iran	372
-Argentina	331
-Israel, The Netherlands	307
-	299
-Andorra	279
-Tunisia, France	275
-New Zealand	269
-Estonia	235
-Turkey	217
-Taiwan	216
-Latvia	215
-Slovenia	215
-Colombia, USA	184
-Serbia	182
-Hungary, United Kingdom	177
-Mexico	173
-Jordan	150
-India	145
-Greece, Sweden	141
-Syria	138
-Sweden, Finland	134
-Slovak Republic	130
-Lithuania	129
-Australia, United Kingdom	124
-Indonesia	103
-Singapore	100
-Malta	96
-Egypt	86
-Croatia	83
-UAE	82
-Liechtenstein	74
-China	66
-Bulgaria	65
-Norway, Finland	64
-Belgium, United Kingdom	58
-Russia, Canada	58
-Lebanon	57
-Iraq, USA	51
-Kyrgyzstan, Germany	41
-South Africa	38
-Luxembourg	33
-Belarus	32
-Bosnia and Herzegovina	31
-Saudi Arabia	26
-Costa Rica	26
-Georgia	20
-USA, Cyprus	20
-Peru	20
-Bahrain	19
-Iraq	19
-Moldova	18
-Korea, South	17
-Cyprus	16
-Malaysia	16
-Greece, USA	13
-Monaco	12
-Israel, Germany	12
-Colombia	11
-Macedonia	11
-Portugal, United Kingdom	10
-Bosnia and Herzegovina, Croatia	9
-Iran, Norway	6
-Finland, Sweden	6
-Sri Lanka	6
-Ukraine, Canada	5
-Bolivia	5
-Armenia	4
-Azerbaijan	4
-Mexico, USA	3
-Lithuania, United Kingdom	3
-Ecuador	3
-Canada, France	2
-Albania	2
-Jersey	2
-Lithuania, Germany	2
-United Kingdom, Greece	2
-Swaziland	2
-Italy, Spain	1
-Venezuela	1
-Poland, Sweden	1
-Greenland	0
+band_name	lifespan
+Gary Moore	41
+Mötley Crüe	34
+Bolt Thrower	30
+Dio	28
+Carnivore	28
+Angel Dust	27
+Celtic Frost	24
+Vomitory	24
+To/Die/For	23
+!T.O.O.H.!	23
+Desire	23
+Avalanch	23
+Pantera	22
+Sieges Even	22
+Agalloch	21
+Ark	21
+More	21
+Aeba	21
+In-Quest	20
+Vio-lence	20
+Morgain	20
+Apophis	20
+Static-X	19
+Agathodaimon	19
+Mystic Force	19
+Pungent Stench	19
+Unexpect	19
+Astarte	19
+Charon	19
+Exmortem	18
+Death	18
+Dark Tribe	18
+Where She Wept	18
+Demigod	18
+Lunar Aurora	18
+Imagika	18
+Sotajumala	18
+Hel	18
+Infernal Poetry	18
+Crucified Barbara	18
+Altaria	17
+Mourning Caress	17
+Sentenced	17
+Chimaira	16
+Yearning	16
+Ajattara	16
+Lay Down Rotten	16
+3 Inches Of Blood	16
+Ephel Duath	16
+Vanadium	16
+Cemetary	16
+Ancient Ceremony	16
+Warning	16
+Lullacry	15
+Nahemah	15
+Nothingface	15
+Callenish Circle	15
+Circle Of Dead Children	15
+The Lord Weird Slough Feg	15
+The Berzerker	15
+The Gates Of Slumber	15
+Obsidian	15
+Ad Inferna	15
+Zero Hour	15
+The Embodiment	15
+Bleeding Through	15
+Taranis	14
+Casketgarden	14
+Defleshed	14
+Crionics	14
+Kells	14
+Viuda Negra	14
+Edge Of Sanity	14
+Goddess Of Desire	14
+The Crest	14
+The Provenance	13
+Cenotaph	13
+The 3rd And The Mortal	13
+Dies Irae	13
+Symphorce	13
+In Solitude	13
+Reverend Bizarre	13
+Elvira Madigan	13
+Wargasm	13
+Raintime	13
+Kiuas	13
+Machine Men	13
+Valhalla	13
+Cyclone	13
+Isis	13
+White Zombie	13
+Hellsaw	13
+Orphanage	12
+Love Lies Bleeding	12
+D'espairsRay	12
+Mörk Gryning	12
+Led Zeppelin	12
+Metalium	12
+Sengir	12
+Killers (UK)	12
+Weekend Nachos	12
+Heavens Gate	12
+Wijlen Wij	12
+Fleshgrind	12
+Horn Of The Rhino	11
+Wodensthrone	11
+The Axis Of Perdition	11
+Superjoint Ritual	11
+Synestesia	11
+The Legion	11
+Shah	11
+The Wounded Kings	11
+Obtained Enslavement	11
+De Magia Veterum	11
+Fall Of The Leafe	11
+Thronar	11
+Draugr	11
+MyGrain	11
+Sacramentum	11
+Sargatanas Reign	11
+Despondency	11
+Diabolical Masquerade	11
+Massacra	11
+Splattered Mermaids	10
+Chalice	10
+Judas Iscariot	10
+Sybreed	10
+Pariah	10
+Blackened	10
+As We Fight	10
+Anthemon	10
+Thy?	10
+Irreversible	10
+Woods Of Ypres	9
+Grim Reaper	9
+Despond	9
+Cauldron Born	9
+December's Cold Winter	9
+Nagelfar	9
+Sadness	9
+Botch	9
+Arcane	9
+Mistress	9
+Waning	9
+Anterior	9
+Thy Flesh Consumed	9
+Douce Morphine	9
+Exsecratus	9
+Arven	9
+Bloodsoaked	9
+Dark Embrace	9
+Thee Orakle	9
+Peccatum	8
+Dark The Suns	8
+Havoc Unit	8
+Unchained	8
+The Angelic Process	8
+Slumber	8
+Myopia	8
+Sanctity	8
+V8	8
+Blessed Death	8
+Chaoswave	8
+Kromlek	8
+One Man Army And The Undead Quartet	8
+Cadacross	8
+Echo Of Dalriada	8
+Hermética	7
+Beholder (ITA)	7
+Mithotyn	7
+ReVamp	7
+Dawn Of Solace	7
+Kyuss	7
+Fear Of God	7
+Realm	7
+Vermilion	7
+Gothmog	7
+Made Out Of Babies	7
+Krv	7
+Misery Inc.	7
+Clinging To The Trees Of A Forest Fire	7
+Coldworker	7
+Annotations Of An Autopsy	7
+Gypsyhawk	7
+Nyktalgia	7
+Soulfractured	7
+The Black Mages	7
+Citizen	7
+Eyes Of Noctum	7
+Falchion	7
+Altar Of Plagues	7
+Torture Division	7
+Paragon Of Beauty	7
+Angtoria	7
+Acid Bath	7
+Light This City	6
+Another Messiah	6
+Wolfpack	6
+Impetigo	6
+Cryptic Warning	6
+Dead In The Dirt	6
+Hades	6
+Mandator	6
+Ravager	6
+Slash's Snakepit	6
+The Union Underground	6
+Ripping Corpse	6
+1000 Funerals	6
+Control Denied	6
+Bone Gnawer	6
+Today I Caught The Plague	6
+Dirge Within	6
+Skeletal Spectre	6
+Ahumado Granujo	6
+Slaughter	6
+War	6
+A Canorous Quintet	6
+System Divide	6
+Under That Spell	6
+Zonata	5
+The Oracle	5
+Esoterica	5
+Axatak	5
+Necropsy	5
+Amesoeurs	5
+Livsnekad	5
+Warlock	5
+The Mist And The Morning Dew	5
+Estatic Fear	5
+Scavenger	5
+Amaran	5
+Oxiplegatz	5
+Devian	5
+Rebel Meets Rebel	5
+Sortilège	5
+Trifixion	5
+Mourning Lenore	4
+Gillan	4
+Zyklon-B	4
+Death Of Self	4
+Vista Chino	4
+Metalstorm	4
+Armagedda	4
+Insect Warfare	4
+Heed	4
+Goodbye To Gravity	4
+Target	4
+Unseen Terror	4
+Disembowelment	4
+Heaven And Hell	4
+Mysto Dysto	4
+Black Country Communion	4
+X Wild	4
+Rev 16:8	4
+Torn Apart	4
+Austere	3
+Middian	3
+Probot	3
+Posthuman	3
+Metalforce	3
+Hydra Vein	3
+The Moaning	3
+Ruthless Steel	3
+Brown Jenkins	3
+Orkrist	3
+Apati	3
+Revolution Renaissance	2
+Tempestuous Fall	2
+Voodoocult	2
+Aurinko	2
+The Oath	2
+The Crevices Below	2
+Storm	2
+Hlidolf	2
+Okazaki Fragments	1
+Damageplan	1
+Rosicrucian	1
+Newsted	1
+Symfonia	1
+Legend	1
+Nailbomb	1
+Belphegor	0
+Einherjer	0
+Entwine	0
+Dååth	0
+Craft	0
+Nechochwen	0
+Winterhymn	0
+Embraze	0
+Slivers Cross	0
+Heretoir	0
+Ramp	0
+Wovenwar	0
+Lycanthia	0
+Slartibartfass	0
+Cretin	0
+Ethereal Blue	0
+In Vain (ESP)	0
+Vitacit	0
+Opeth	0
+Before The Dawn	0
+Sunn O)))	0
+Mordab	0
+Funeral Mist	0
+Darkestrah	0
+Almanac	0
+Noctiferia	0
+Acacia	0
+Endless Main	0
+Beaten To Death	0
+Solifvgae	0
+Highland Glory	0
+Runemagick	0
+Memoira	0
+Sorcery (Swe)	0
+Cult Of Daath	0
+Ewigkeit	0
+Infection	0
+Voidless Form	0
+Megadeth	0
+Deftones	0
+Decrepit Birth	0
+Warmen	0
+Lurker Of Chalice	0
+Fleshcrawl	0
+Apocynthion	0
+Nu.Clear.Dawn	0
+Age Of Taurus	0
+EnkElination	0
+Belfegor	0
+Sorrowful	0
+Katharsis	0
+Stormwitch	0
+Mindflow	0
+Spiders	0
+Exhale	0
+Infinite Waste	0
+Voodooshock	0
+Slayer	0
+Theatre Of Tragedy	0
+Uriah Heep	0
+Anata	0
+Neaera	0
+Mithras	0
+Burden Of Grief	0
+Oddland	0
+Akroma	0
+Dark Sermon	0
+Execration	0
+Beorn	0
+Soul Dissolution	0
+Inhepsie	0
+Kuolemanlaakso	0
+The Hourglass	0
+Mortem	0
+Strydegor	0
+Face Of Oblivion	0
+Wagars	0
+Dream Theater	0
+Down	0
+Blotted Science	0
+Brujeria	0
+Pantheist	0
+Pathology	0
+Bury Tomorrow	0
+Ophthalamia	0
+Almyrkvi	0
+Darkmoon	0
+Feastem	0
+Birds Of Prey	0
+Sourvein	0
+Into The Nethermost	0
+Lizzy Borden	0
+The Rotted	0
+Nidingr	0
+Subhuman	0
+Fall Of Empyrean	0
+Warlord U.K.	0
+Nightwish	0
+Rage Against The Machine	0
+Shadow Gallery	0
+Lantlôs	0
+Rigor Mortis	0
+Saint Deamon	0
+Cave In	0
+Outre	0
+Apostasy	0
+Dead Summer Society	0
+Final Darkness	0
+Black Knight Symfonia	0
+Spartan Warrior	0
+Iron Void	0
+Wheelfall	0
+Merciless	0
+Vampiria	0
+Nylithia	0
+Sycronomica	0
+Feridea	0
+Judas Priest	0
+Five Finger Death Punch	0
+Skyfire	0
+Penumbra	0
+Severe Torture	0
+Suspyre	0
+Chaos Ech?s	0
+Pestifer	0
+Asylum Pyre	0
+Deep-Pression	0
+Full Force Inc	0
+Blackwater	0
+Srogo??	0
+Jackdevil	0
+Winters	0
+Netherion	0
+Yyrkoon	0
+Omega Massif	0
+The Drowning	0
+Finnugor	0
+In Flames	0
+Nine Inch Nails	0
+Vanden Plas	0
+Augury	0
+Tvangeste	0
+Trepalium	0
+Corpus Christii	0
+Psilocybe Larvae	0
+Below The Sun	0
+Denouncement Pyre	0
+Ghost Iris	0
+Blood Revolt	0
+Station Dysthymia	0
+Jezabel	0
+Witchcurse	0
+Runic	0
+Ørkenkjøtt	0
+Phobia	0
+The Moth Gatherer	0
+Forgive-Me-Not	0
+Tanagra	0
+Dark Tranquillity	0
+Dethklok	0
+In Extremo	0
+Northern Kings	0
+Witchfinder General	0
+Ablaze In Hatred	0
+Dawn Of Ashes	0
+Rain Delay	0
+Black Fate	0
+Devious	0
+Glass Cloud	0
+Boomerang	0
+K.L.L.K.	0
+Withershin	0
+ScoX	0
+Alabama Thunderpussy	0
+Power Symphony	0
+The Storyteller	0
+Temple Of Evil	0
+Ensiferum	0
+Cryptopsy	0
+Solution .45	0
+Rata Blanca	0
+Aeternam	0
+Almora	0
+Demiurg	0
+Svarttjern	0
+Britny Fox	0
+Distress	0
+Gun Barrel	0
+Cap De Craniu	0
+Kanashimi	0
+Wolves Carry My Name	0
+Todesbonden	0
+Argus	0
+Radiance (FIN)	0
+Thirdmoon	0
+Goathemy	0
+Tesa	0
+Katatonia	0
+Graveworm	0
+Diamond Head	0
+UFO	0
+Alchemist	0
+Dredg	0
+Disfiguring The Goddess	0
+The Eternal	0
+Ceremonial Perfection	0
+Drawn And Quartered	0
+Hierophant	0
+Kempes	0
+Wovoka	0
+Valkyrja	0
+Breakdown Of Sanity	0
+Rwake	0
+Thundra	0
+Graveshadow	0
+Carpatica	0
+The Batallion	0
+Dimmu Borgir	0
+Grave Digger	0
+God Dethroned	0
+Helevorn	0
+Avatar	0
+Huntress	0
+Doomed	0
+Undersmile	0
+Consciousness Removal Project	0
+Dystera	0
+Hord	0
+Khaotic	0
+Wrong	0
+Ævangelist	0
+Chaos Moon	0
+Samhain	0
+Tublatanka	0
+Cavus	0
+The Doomsday Kingdom	0
+Wintersun	0
+The Black Dahlia Murder	0
+In The Silence	0
+Aenaon	0
+Dark Age	0
+Leverage	0
+Elexorien	0
+Voodoo Circle	0
+Crimson Swan	0
+Ignominious Incarceration	0
+Grimfist	0
+Killing Addiction	0
+Wyruz	0
+American Head Charge	0
+Comatose Vigil	0
+Serenity In Murder	0
+Unfathomable Ruination	0
+Eciton	0
+Chaosfear	0
+The Everdawn	0
+Xsavior	0
+Amorphis	0
+Neurosis	0
+Nachtmystium	0
+Behexen	0
+Guilt Machine	0
+Mandragora Scream	0
+Enthring	0
+Waking The Cadaver	0
+Crypt Sermon	0
+Immortal Bird	0
+Hacavitz	0
+Kinetic	0
+Beheaded	0
+De Profundis	0
+Shadowsphere	0
+Usnea	0
+Elite	0
+Chariots Of The Gods	0
+The Night Flight Orchestra	0
+Ye Goat-Herd Gods	0
+Tool	0
+Dark Moor	0
+Xasthur	0
+Zonaria	0
+Isengard	0
+Mortal Love	0
+Facebreaker	0
+Wo Fat	0
+Dark Sarah	0
+In Battle	0
+Hardingrock	0
+Kommandant	0
+Daemonarch	0
+Descending	0
+Shear	0
+Vaura	0
+Elyose	0
+Cloud Rat	0
+The Order Of Chaos	0
+Yhdarl	0
+Testament	0
+King Crimson	0
+Wolfchant	0
+Funeral	0
+Saratoga	0
+Sunset In The 12th House	0
+General Surgery	0
+Absentation	0
+Deathbound	0
+In Tormentata Quiete	0
+Hell:On	0
+Kroh	0
+Hammerforce	0
+For Today	0
+Steel Prophet	0
+Venomous Concept	0
+Enabler	0
+Colombian Necktie	0
+The Wakedead Gathering	0
+Your Tomorrow Alone	0
+Immortal	0
+Bruce Dickinson	0
+Sadus	0
+Jag Panzer	0
+Secret Sphere	0
+Assassin	0
+Hearse	0
+All Pigs Must Die	0
+Dephosphorus	0
+Vicious Art	0
+Infected Disarray	0
+Hexis	0
+Leeds Point	0
+Mare Cognitum	0
+Genghis Tron	0
+Sworn Enemy	0
+End Of Aeon	0
+Communion Of Thieves	0
+Those Who Bring The Torture	0
+Iced Earth	0
+Deathspell Omega	0
+Nightrage	0
+Ragnarok	0
+Silentium	0
+Brutality	0
+Icewind	0
+Anagnorisis	0
+Destrose	0
+War From A Harlots Mouth	0
+Integral Rigor	0
+High Spirits	0
+Titaan	0
+Lenore S. Fingers	0
+6th Dimension	0
+Necrodeath	0
+Happy Days	0
+Tears Of Martyr	0
+Epoch Of Unlight	0
+Coven 13	0
+Symphony X	0
+Coroner	0
+Pyramaze	0
+Yob	0
+Twilightning	0
+Cauldron	0
+Impiety	0
+Antigama	0
+Devathorn	0
+Wiegedood	0
+Jorn Lande & Trond Holter	0
+Houwitser	0
+Trimonium	0
+Linea 77	0
+A Lower Deep	0
+Onmyo-Za	0
+How Like A Winter	0
+The Great Kat	0
+Estertor	0
+Cretura	0
+Gojira	0
+Tarja	0
+Gloryhammer	0
+Flowing Tears	0
+Watchtower	0
+Dissona	0
+Indesinence	0
+Beastwars	0
+Dragon Guardian	0
+Wolfpakk	0
+Karkadan	0
+Hyems	0
+Trophallaxy	0
+Lionheart	0
+Ace Of Hearts	0
+Procession	0
+Loudblast	0
+Twilight Guardians	0
+Eternity's End	0
+Crom Dubh	0
+Sonata Arctica	0
+Melechesh	0
+Kalisia	0
+Mezarkabul	0
+Asking Alexandria	0
+Katra	0
+Kaledon	0
+Celtic Legacy	0
+Dusk	0
+2 Times Terror	0
+KEN Mode	0
+Implant Pentru Refuz	0
+Unholy Matrimony	0
+Lo-Ruhamah	0
+Algy Ward's Tank	0
+Stravaganzza	0
+Mütiilation	0
+Vanguard	0
+Exiled From Light	0
+Cryptal Darkness	0
+Nile	0
+Cult Of Luna	0
+Trail Of Tears	0
+Abigor	0
+Dimension Zero	0
+Ondskapt	0
+Legenda Aurea	0
+Claymore	0
+Enid	0
+Abysmal Grief	0
+Killers	0
+Infera Bruo	0
+Urban Tales	0
+Lumbar	0
+Anatomia	0
+Theory In Practice	0
+Michael Kiske	0
+Virgin Snatch	0
+For Selena And Sin	0
+Dahakara	0
+Moonspell	0
+Yngwie Malmsteen	0
+Woods Of Desolation	0
+Sabbat	0
+Krallice	0
+Shattered Hope	0
+Lion's Share	0
+Crow Black Sky	0
+Epizod	0
+Age Of Artemis	0
+Koldborn	0
+Iron Hearse	0
+Luthor	0
+Angist	0
+Trauma	0
+Nirvana 2002	0
+With The Dead	0
+Genius: A Rock Opera	0
+Dark Arena	0
+Valkenrag	0
+Cannibal Corpse	0
+All That Remains	0
+Sinergy	0
+Turmion Kätilöt	0
+Siebenbürgen	0
+Wormed	0
+Lost In Thought	0
+Dark Castle	0
+Fairytale Abuse	0
+Airged L'amh	0
+Kruger	0
+Kenziner	0
+Mangog	0
+Apokalyptic Raids	0
+Zimmers Hole	0
+Ovid's Withering	0
+Zhrine	0
+Godiva	0
+Dead Infection	0
+Venin Noir	0
+Emperor	0
+Sólstafir	0
+Wuthering Heights	0
+Anciients	0
+Debauchery	0
+Belenos	0
+Manigance	0
+Dirty Shirt	0
+Fit For An Autopsy	0
+Alkemyst	0
+Grey Skies Fallen	0
+Les Chants De Nihil	0
+Kowloon Walled City	0
+Massakren	0
+Apparatus	0
+Barathrum	0
+Repugnant	0
+Deadlands	0
+VII Gates	0
+Cradle Of Filth	0
+Blut Aus Nord	0
+Heavenwood	0
+Blindead	0
+Lost Soul	0
+Cirith Ungol	0
+Monumental Torment	0
+Djevel	0
+A Dream Of Poe	0
+Full Of Hell	0
+Altar (ROM)	0
+Hadriel	0
+Light Bringer	0
+Last Sacrament	0
+Materia	0
+Argus (Ro)	0
+Bifröst	0
+RoutaSielu	0
+Deafening Silence	0
+Vise Versa	0
+Haken	0
+Doro	0
+Devourment	0
+Planet X	0
+Darkwell	0
+Mumakil	0
+Earth And Pillars	0
+Abattoir	0
+Gaza	0
+Amulance	0
+Hail!Hornet	0
+Lorna Shore	0
+Latitude Egress	0
+MCM	0
+As I Lay Dying (AUT)	0
+Black Flag	0
+Signum Regis	0
+Death Penalty	0
+Vitriol	0
+Warbringer	0
+Virgin Steele	0
+Gehenna	0
+Soulfallen	0
+Dismal Euphony	0
+Necronomicon	0
+Enfold Darkness	0
+Adimiron	0
+Greymachine	0
+Antropofagus	0
+Hatred	0
+Luminaria	0
+Lefay	0
+Megaton Leviathan	0
+Atara	0
+Dreams Of Sanity	0
+Sunpocrisy	0
+Farmakon	0
+Deathrite	0
+Vomitile	0
+Novembre	0
+Bal-Sagoth	0
+Iron Fire	0
+Winds	0
+Domine	0
+Primitive Man	0
+Against The Plagues	0
+Hansen & Friends	0
+Arkham Witch	0
+Herder	0
+Machinery	0
+Level 10	0
+Mercury Rain	0
+Awake	0
+Folkstone	0
+The Arcane Order	0
+Frontside	0
+Desolate Pathway	0
+Wells Valley	0
+Six Feet Under	0
+Mourning Beloveth	0
+Nortt	0
+Black Messiah	0
+Gates Of Ishtar	0
+Ruins	0
+Alpine Fault	0
+Hellbringer	0
+Asenblut	0
+Iconocaust	0
+Maladie	0
+Lorn	0
+Mesmur	0
+Axis Of Despair	0
+Kälter	0
+The Flight Of Sleipnir	0
+Grailknights	0
+Desperado	0
+Whitehorse	0
+Old Man's Child	0
+Saor	0
+Ancient Rites	0
+Eisbrecher	0
+Gorgasm	0
+Satan's Host	0
+Andras	0
+Helms Alee	0
+Aspherium	0
+Illuminati	0
+Maruta	0
+Methedras	0
+Kongh	0
+Until Death Overtakes Me	0
+Human Rejection	0
+Magister Templi	0
+Deuil	0
+Winds Of Torment	0
+Persefone	0
+Dark Lunacy	0
+Exumer	0
+Impellitteri	0
+Intervals	0
+Souldrainer	0
+Atrocious Abnormality	0
+I Am I	0
+Bastard Priest	0
+Inhume	0
+Memfis	0
+Midwinter	0
+Nervosa	0
+Viraemia	0
+In Slumber	0
+Makrothumia	0
+Di'Anno	0
+Within The Fall	0
+Myrath	0
+Gama Bomb	0
+Hirax	0
+Keldian	0
+Luna Mortis	0
+The Obsessed	0
+Betzefer	0
+Imperial Crystalline Entombment	0
+Benighted In Sodom	0
+Kalidia	0
+Mindfeeder	0
+Mion's Hill	0
+Obliteration	0
+Wormphlegm	0
+Intruder	0
+Manitou	0
+Dictator	0
+Woburn House	0
+Green Carnation	0
+Leviathan	0
+Mystic Prophecy	0
+Myrkur	0
+Outworld	0
+Tribuzy	0
+Brimstone Coven	0
+Inverloch	0
+Bible Of The Devil	0
+Kick Axe	0
+Mondstille	0
+Misere Nobis	0
+Omega Lithium	0
+Aes Dana	0
+Kaamos	0
+Mayze	0
+Distaste	0
+Woods Of Belial	0
+Metal Church	0
+Spiritual Beggars	0
+Winterfylleth	0
+Scars On Broadway	0
+Seven Kingdoms	0
+VON	0
+Catalepsia	0
+Jack Frost	0
+Birth Of Depravity	0
+Lantern	0
+Mortuus	0
+Monolithian	0
+Scarve	0
+Aluk Todolo	0
+Karelia	0
+Black Autumn	0
+Mefisto	0
+Doga	0
+Yawarhiem	0
+Danzig	0
+Saint Vitus	0
+Arkan	0
+The Devil's Blood	0
+Uncle Acid & The Deadbeats	0
+Winterstorm	0
+Celestial Crown	0
+Karybdis	0
+Lethal	0
+Morgenstern	0
+Schandmaul	0
+Autumnia	0
+Liv Moon	0
+Black Monolith	0
+Nadiwrath	0
+Mhorgl	0
+Dr.X	0
+Zavorash	0
+Triptykon	0
+Atreyu	0
+Diabulus In Musica	0
+Wyrd	0
+Wormrot	0
+Zierler	0
+Cult Of Herodias	0
+Kingfisher Sky	0
+Louna	0
+SpiRitual	0
+Blazing Eternity	0
+Lunatic Gods	0
+Blackstar Halo	0
+Narcotic Wasteland	0
+Mind Odyssey	0
+Dreamlost	0
+48 Crash	0
+Movimento D'Avanguardia Ermetico	0
+The Haunted	0
+Godflesh	0
+God Forbid	0
+Dark Empire	0
+Adorned Brood	0
+Aeon Zen	0
+Dark At Dawn	0
+Lyzanxia	0
+Manic Movement	0
+The Amenta	0
+Chalice Of Doom	0
+Mantar	0
+Burn The Priest	0
+Neoheresy	0
+Morbosidad	0
+Dysylumn	0
+A Gruesome Find	0
+Myrk	0
+Van Halen	0
+Anubis Gate	0
+Kittie	0
+Hanging Garden	0
+Burst	0
+Amon	0
+Dawn Of Disease	0
+Mares Of Thrace	0
+Marshall Law	0
+Weakling	0
+Cruciamentum	0
+Murder Construct	0
+Cain's Dinasty	0
+Nocturnal Fear	0
+Mother Witch & Dead Water Ghosts	0
+Ebonillumini	0
+Abhorrent	0
+Mythopoeia	0
+Pain	0
+Europe	0
+Power Quest	0
+Kingcrow	0
+Detonation	0
+Appalachian Winter	0
+Death Fetishist	0
+Mephorash	0
+When Nothing Remains	0
+Dol Ammad	0
+Panzer (GER)	0
+May Result	0
+Carpathian Full Moon	0
+Nova Era	0
+Nachtlieder	0
+Eeriness	0
+Acrosome	0
+Napalm Strike	0
+Protest The Hero	0
+Zyklon	0
+SikTh	0
+Quiet Riot	0
+Grip Inc.	0
+Asrai	0
+Defiled	0
+Moonreich	0
+Wretched	0
+Eisregen	0
+Plebeian Grandstand	0
+Mirzadeh	0
+Centurian	0
+Old Season	0
+Nevaloth	0
+Eibon la Furies	0
+Aeon Throne	0
+Nashgul	0
+Circus Maximus	0
+Orden Ogan	0
+Stormtroopers Of Death	0
+Wolfmother	0
+Khors	0
+Bend The Sky	0
+Demisery	0
+Mutilation Rites	0
+Armageddon	0
+Fear Of Domination	0
+Psygnosis	0
+My Lament	0
+Chapel Of Disease	0
+Panndora	0
+Night Magic	0
+Empires Of Eden	0
+Against Tolerance	0
+Need	0
+Municipal Waste	0
+Stormlord	0
+Urgehal	0
+Agoraphobic Nosebleed	0
+Omen	0
+Bongzilla	0
+Diocletian	0
+Myraeth	0
+Beautiful Sin	0
+Frequency Of Butterfly Wings	0
+Quorthon	0
+Natan	0
+Cold Snap	0
+Nitro	0
+Persian Risk	0
+Noisear	0
+Entheos (CAN)	0
+Airdash	0
+Negative Core Project	0
+Dismember	0
+Aquilus	0
+Brutal Truth	0
+Anacrusis	0
+Progenie Terrestre Pura	0
+Capharnaum	0
+Disforia	0
+Chaos Divine	0
+Grey Heaven Fall	0
+Reverence	0
+Crimson Death	0
+Nontinuum	0
+Phosphorus	0
+Norska	0
+Eternal Reign	0
+Akem Manah (USA)	0
+Nifrost	0
+Barren Earth	0
+Wine From Tears	0
+Madder Mortem	0
+Deadsoul Tribe	0
+Steel Attack	0
+Conquest	0
+Dissenter	0
+Obsidian Gate	0
+Crom	0
+Illogicist	0
+Selvans	0
+Crocell	0
+Noturna	0
+Pissing Razors	0
+Oh, Sleeper	0
+Ethernity	0
+Aktor	0
+Ningen Isu	0
+Krisiun	0
+Kampfar	0
+Neuraxis	0
+Glorior Belli	0
+Torchbearer	0
+Death SS	0
+Dreamaker	0
+Place Of Skulls	0
+Nolentia	0
+Dekadent	0
+Ion Dissonance	0
+Sir Lord Baltimore	0
+Nox	0
+Preternatural	0
+Omen (HUN)	0
+Exiled	0
+Alkimya	0
+Uaral	0
+Visions Of Atlantis	0
+Thulcandra	0
+Silent Force	0
+Waltari	0
+Disavowed	0
+Sleestak	0
+Dyrathor	0
+Platitude	0
+Deathember	0
+Northless	0
+...And Oceans	0
+Emigrate	0
+Kriegsmaschine	0
+Odraza	0
+Q5	0
+Ordog	0
+Filii Nigrantium Infernalium	0
+Amor E Morte	0
+Whitesnake	0
+OSI	0
+Aria	0
+The Meads Of Asphodel	0
+Dreamtone & Iris Mavraki's Neverland	0
+Soul Secret	0
+Dysrhythmia	0
+Putridity	0
+Decaying	0
+Oceans Of Night	0
+Anal Cunt	0
+Frosttide	0
+Mar?olea	0
+Opus Doria	0
+Rage Nucléaire	0
+Ostrogoth	0
+Forces United	0
+Andacht	0
+Mercenary	0
+Russian Circles	0
+Despised Icon	0
+Todtgelichter	0
+Eibon	0
+Soziedad Alkoholika	0
+Embryonic Devourment	0
+Rebaelliun	0
+Degial	0
+Offal	0
+Arena	0
+Immortal Souls	0
+Nostradameus	0
+Parasitic Extirpation	0
+Raglaia	0
+P.L.F.	0
+Foul Body Autopsy	0
+Angrepp	0
+The Agonist	0
+Blue Öyster Cult	0
+Imperanon	0
+Unleash The Archers	0
+Enochian Theory	0
+Switchtense	0
+Eternal Gray	0
+Red Descending	0
+Dimlight	0
+Oliver/Dawson Saxon	0
+Chimp Spanner	0
+Insania	0
+Psyopus	0
+Pestilential Shadows	0
+Ramming Speed	0
+Perzonal War	0
+Frightmare	0
+Antagonist Zero	0
+One Tail, One Head	0
+Mudvayne	0
+Hellhammer	0
+Shaman	0
+Acrassicauda	0
+Evenoire	0
+Talanas	0
+Faster Pussycat	0
+Ross The Boss	0
+Doctor Cyclops	0
+Draugnim	0
+Khanate	0
+Sarke	0
+Pictures Of Pain	0
+Scarleth	0
+Planks	0
+Funeral Whore	0
+Apa Simbetii	0
+Orbweaver	0
+My Dying Bride	0
+The Ocean	0
+Blood Red Throne	0
+Alkaloid	0
+Klimt 1918	0
+Evig Natt	0
+The SLoT	0
+Gadget	0
+Sannhet	0
+Dragonhammer	0
+Hammers Of Misfortune	0
+Oceans Of Sadness	0
+Seth	0
+Pulse Of Nebulae	0
+Schizoid Lloyd	0
+Poison Sun	0
+Gehennah	0
+Aposthate	0
+Organ Dealer	0
+Nevermore	0
+Voivod	0
+Illnath	0
+Caligula's Horse	0
+Monolithe	0
+Grift	0
+The Spektrum	0
+Geezer	0
+Sinmara	0
+Earthship	0
+Krampus	0
+Parasite Inc.	0
+Symphonity	0
+Raging Speedhorn	0
+Serenity Broken	0
+Posthum	0
+Ghee-Yeh	0
+Architects Of Chaoz	0
+Overgarven	0
+Paradise Lost	0
+Skid Row	0
+James LaBrie	0
+Demonaz	0
+SIG:AR:TYR	0
+Hayagriva	0
+This Ending	0
+Slugathor	0
+Elenium	0
+Lunarsea	0
+Sister Sin	0
+Unholy	0
+Grave Flowers	0
+Reciprocal	0
+Shadowkeep	0
+Profusion	0
+Goblin Hovel	0
+Arryan Path	0
+P.O.O.R.	0
+Kalmah	0
+Vital Remains	0
+Darkest Hour	0
+Elis	0
+Azarath	0
+Hellveto	0
+Tim "Ripper" Owens	0
+Sorcier Des Glaces	0
+Empyrean	0
+Monuments	0
+Sons Of Seasons	0
+Volumes	0
+Halloween	0
+Fastkill	0
+Reverence (USA)	0
+Shatter Messiah	0
+Project Pain	0
+Gone Postal	0
+Artisian	0
+Paganus	0
+Burzum	0
+1349	0
+Red Fang	0
+Sarcófago	0
+DoomSword	0
+Advent Sorrow	0
+Holy Martyr	0
+Trollech	0
+Space Eater	0
+Nader Sadek	0
+Svart Crown	0
+Hollow Haze	0
+Firespawn	0
+Rising Dream	0
+Shepherds Of Cassini	0
+Quest Of Aidance	0
+Gothic Knights	0
+Ashen Horde	0
+Pale Chalice	0
+Morbid Angel	0
+Tankard	0
+Solefald	0
+Whiplash	0
+Indukti	0
+Ancient Ascendant	0
+Jupiter	0
+Vanhelgd	0
+Spirit Caravan	0
+Paul Wardingham	0
+The Haarp Machine	0
+Ivory Tower	0
+Fuath	0
+Sammath	0
+Sin7sinS	0
+Reasons Behind	0
+Gravehill	0
+Aspectra	0
+Paul Chain	0
+Finntroll	0
+Cattle Decapitation	0
+Cruachan	0
+Blaze Bayley	0
+Luca Turilli's Dreamquest	0
+Attacker	0
+Koldbrann	0
+Vastum	0
+Lana Lane	0
+Tantara	0
+Putrid Pile	0
+Thou	0
+Furia	0
+Senmuth	0
+Speed\\Kill/Hate	0
+Resurrection Kings	0
+Gverr	0
+Asymmetry	0
+Perfecitizen	0
+Moonsorrow	0
+Pagan's Mind	0
+Exhumed	0
+Colosseum	0
+Pagan Altar	0
+Carcariass	0
+Lanfear	0
+Light Bearer	0
+Tau Cross	0
+Tombs	0
+Worship	0
+Voices Of Destiny	0
+Gigan	0
+Six Degrees Of Separation	0
+Sportlov	0
+Rippikoulu	0
+Autumn: Death	0
+Philadelphia	0
+System Of A Down	0
+Shade Empire	0
+The Ruins Of Beverast	0
+Godgory	0
+Slugdge	0
+Ceremonial Oath	0
+Lord Symphony	0
+Lord Dying	0
+The Final Harvest	0
+Hadean	0
+Tyranny	0
+An Abstract Illusion	0
+World Under Blood	0
+Skumring	0
+Star Queen	0
+Rosae Crucis	0
+Azavatar	0
+Bathory	0
+Autopsy	0
+Dokken	0
+Process Of Guilt	0
+Triosphere	0
+Convulse	0
+Merrow	0
+Ludicra	0
+The Neologist	0
+Gorath	0
+Heavydeath	0
+Plague Of Stars	0
+Aesma Daeva	0
+Arcana Coelestia	0
+Addaura	0
+Solbrud	0
+Stride	0
+Samothrace	0
+Basement Torture Killings	0
+Draconian	0
+Lake Of Tears	0
+Mägo de Oz	0
+Lumsk	0
+Black Majesty	0
+Doom	0
+Nachtblut	0
+McAuley Schenker Group	0
+The Secret	0
+Heart Attack	0
+Hell Within	0
+Pombagira	0
+Chevelle	0
+Bulldozer	0
+Apathy Noir	0
+Soulmass	0
+Sworn (ARM)	0
+Saturnalia Temple	0
+Battlezone	0
+Profanator	0
+AC/DC	0
+Lost Horizon	0
+Battle Beast	0
+Morgoth	0
+Dead Congregation	0
+Flourishing	0
+Obsequiae	0
+Misery Loves Co.	0
+The Zenith Passage	0
+Hell Militia	0
+Herald	0
+Estradasphere	0
+Cold Body Radiation	0
+Atriarch	0
+Spoil Engine	0
+Tacoma Narrows Bridge Disaster	0
+Season's End	0
+Before God	0
+Psycho Symphony	0
+Swallow The Sun	0
+Keep Of Kalessin	0
+Ex Deo	0
+Rebellion	0
+Manticora	0
+Garden Of Shadows	0
+Omit	0
+Mortillery	0
+Twisted Tower Dire	0
+Holocausto	0
+House Of Low Culture	0
+Fferyllt	0
+Deathchain	0
+Black River	0
+Svartahrid	0
+The 3rd Attempt	0
+Self-Inflicted Violence	0
+Beyond The Flesh	0
+Purple Hill Witch	0
+Rhapsody Of Fire	0
+Possessed	0
+Skepticism	0
+As Blood Runs Black	0
+Ov Hell	0
+Hackneyed	0
+Phlebotomized	0
+Mythological Cold Towers	0
+Urkraft	0
+Hope Drone	0
+Human Cull	0
+Kahtmayan	0
+Desolate Shrine	0
+Bloody Panda	0
+Sweet Sorrow	0
+The Kill	0
+Sepia Dreamer	0
+Black Succubi	0
+Pyriphlegethon	0
+Motörhead	0
+Allegaeon	0
+Redemption	0
+Babymetal	0
+Tengger Cavalry	0
+Infinite Tales	0
+Pyrithion	0
+Night Of Suicide	0
+Vola	0
+Icarus Witch	0
+I Chaos	0
+Korzus	0
+Drowning The Light	0
+Burnt By The Sun	0
+Taatsi	0
+The Old Wind	0
+Sethian	0
+Blackwelder	0
+Rabenwolf	0
+Korpiklaani	0
+Catamenia	0
+Vildhjarta	0
+Exhorder	0
+Alkonost	0
+iwrestledabearonce	0
+Revolting	0
+Castle	0
+Noisem	0
+Volturyon	0
+Immersed	0
+Implore	0
+Noekk	0
+Elf	0
+Talamyus	0
+The Scourger	0
+Shadow Host	0
+Blastanus	0
+Regnvm Animale	0
+HammerFall	0
+Hatebreed	0
+Gorefest	0
+Iron Mask	0
+Autumn	0
+Karma To Burn	0
+Sebastien	0
+Damned Spirits' Dance	0
+Northlane	0
+Way To End	0
+Insidious Disease	0
+Infinitum Obscure	0
+Odious Mortem	0
+Gardenian	0
+The Almighty	0
+Third Ion	0
+Sheavy	0
+Bloodgut	0
+Rezident EX	0
+Sabaton	0
+Heidevolk	0
+Monster Magnet	0
+Mistur	0
+Dragonlord	0
+Lamented Souls	0
+The Answer	0
+Domain	0
+Orakle	0
+Winterage	0
+Isacaarum	0
+Iskra	0
+Pan.thy.monium	0
+Holy Terror	0
+The Defaced	0
+Thormesis	0
+Shturm	0
+Born From Ruins	0
+Rhino	0
+Vader	0
+Textures	0
+Impaled Nazarene	0
+Sevendust	0
+Fantômas	0
+Malignancy	0
+The Stone	0
+Outcast	0
+X-Panda	0
+Jaguar	0
+Karmaflow	0
+Spectral Lore	0
+Illidiance	0
+Elegeion	0
+The Lion's Daughter	0
+Total Devastation	0
+Silent Voices	0
+Bubonic Wrath	0
+Risen To Reclaim	0
+Rotting Christ	0
+Antimatter	0
+While Heaven Wept	0
+Ancient	0
+Kotipelto	0
+Necros Christos	0
+Tyrant Of Death	0
+Prey For Nothing	0
+Zandelle	0
+Joel Grind	0
+Khaotika	0
+Subsignal	0
+Manslaughter	0
+Entropia (POL)	0
+The Lucifer Principle	0
+Ur Draugr	0
+Skeletal Remains	0
+Burweed	0
+Sodom	0
+Crematory	0
+Celesty	0
+Dornenreich	0
+Magica	0
+7-Nov	0
+Urna	0
+Satura	0
+?	0
+Killing Touch	0
+King Fear	0
+Walls Of Jericho	0
+Oceans Of Slumber	0
+Foscor	0
+7th Reign	0
+The Order Of Apollyon	0
+Vainaja	0
+Smargroth	0
+Cannibal Accident	0
+Sacramento	0
+Dissection	0
+Les Discrets	0
+Die Apokalyptischen Reiter	0
+Trouble	0
+Mortal Sin	0
+Old Man Gloom	0
+Vattnet Viskar	0
+Secrets Of The Sky	0
+Kjeld	0
+Kingdragon	0
+Ambeon	0
+Sacrifice	0
+Pressure Points	0
+Grimner	0
+Abonos	0
+Lancer	0
+The Wolves Of Avalon	0
+Violet Cold	0
+Sororicide	0
+Carry The Storm	0
+Sacrist	0
+Rush	0
+Periphery	0
+Orange Goblin	0
+Conception	0
+Sleepytime Gorilla Museum	0
+Wildernessking	0
+Hammercult	0
+Syn Ze ?ase Tri	0
+Kolp	0
+Ashes Of Ares	0
+Satariel	0
+Psychonaut 4	0
+Adastreia	0
+Lost Inside	0
+Totenmond	0
+Volture	0
+Soul Takers	0
+Casual Silence	0
+Samhain (US-NH)	0
+Ozzy Osbourne	0
+Stone Sour	0
+Theocracy	0
+Illdisposed	0
+Becoming The Archetype	0
+Wormfood	0
+Holy Blood	0
+The Interbeing	0
+Kragens	0
+Atrophy	0
+Tharaphita	0
+Ride The Sky	0
+Aegaeon	0
+Medicated	0
+Turbid North	0
+Vulturium Memoriae	0
+Spazmosity	0
+Krokodil	0
+Ceremonia	0
+Scala Mercalli	0
+Alcest	0
+Malevolent Creation	0
+Mechina	0
+WarCry	0
+Chelsea Grin	0
+Agressor	0
+Impious	0
+The Resistance	0
+Emptiness	0
+Thy Serpent	0
+Steve Harris	0
+Twilight	0
+After All	0
+Mesmerize	0
+Vampire	0
+Westfield Massacre	0
+Status Abnormis	0
+Landskap	0
+Chrome Waves	0
+Scumpulse	0
+Deep Purple	0
+Hate Eternal	0
+Om	0
+Bethlehem	0
+Lux Occulta	0
+Au-Dessus	0
+Izah	0
+Menace Ruine	0
+Yggdrasil	0
+Thank You Scientist	0
+Waldgefl�ster	0
+Alister	0
+Morne	0
+Vasaeleth	0
+Wild Throne	0
+Stillborn (POL)	0
+Legend (JE)	0
+Code Of Nelson's Folly	0
+Sedulity	0
+Soilwork	0
+Atoma	0
+Lifelover	0
+Darzamat	0
+Ophis	0
+Black Anvil	0
+Kraanium	0
+Pythia	0
+Aaskereia	0
+Vordven	0
+Wind Rose	0
+Anthropia	0
+Mors Subita	0
+Velnias	0
+Wolfsbane	0
+Sulphur	0
+Lody Kong	0
+Collateral Damage	0
+Selbstentleibung	0
+Trivium	0
+Luca Turilli's Rhapsody	0
+Monstrosity	0
+Krypteria	0
+Tourniquet	0
+Blaze	0
+Lords Of Black	0
+Shaolin Death Squad	0
+Angelcorpse	0
+Ador Dorath	0
+Abandoned	0
+Ariadna Project	0
+Mourning Dawn	0
+Vrani Volosa	0
+Worms Of Sabnock	0
+Svartelder	0
+Looking For An Answer	0
+Coltsblood	0
+Serpentcult	0
+Orphaned Land	0
+Asphyx	0
+Razor	0
+Pretty Maids	0
+Aeternus	0
+Blodsrit	0
+Macabre Omen	0
+Tad Morose	0
+Beyond Fear	0
+Alkerdeel	0
+Abscess	0
+Ashbringer	0
+Wedding In Hades	0
+Xibalba (USA)	0
+The Crown Of Yamhad	0
+Lunarium	0
+Contemplator	0
+Shadowdance	0
+King Diamond	0
+Job For A Cowboy	0
+Avatarium	0
+Satan	0
+Alghazanth	0
+Castevet	0
+Mencea	0
+NightCreepers	0
+Corrupted Melody	0
+Tygers Of Pan Tang	0
+Blitzkrieg	0
+Arizmenda	0
+Afgrund	0
+Well Of Souls	0
+Xysma	0
+The Enochian	0
+Man Made Origin	0
+Cryogenic	0
+Shroud Of Despondency	0
+Deicide	0
+Thyrfing	0
+Graveyard	0
+Beyond Twilight	0
+Arjen Anthony Lucassen	0
+Cloven Hoof	0
+Miserere Luminis	0
+Bakos Attila	0
+Non Opus Dei	0
+Acid King	0
+Christopher Lee	0
+Ash Borer	0
+Anup Sastry	0
+Whorecore	0
+The Order Of Israfel	0
+Cursed 13	0
+Silence	0
+Haggard	0
+Queens Of The Stone Age	0
+Melvins	0
+Coal Chamber	0
+Imperium Dekadenz	0
+Daysend	0
+Neonfly	0
+Beatrik	0
+Occultation	0
+2 Ton Predator	0
+Mastermind	0
+Antaeus	0
+Coronatus	0
+Battleroar	0
+Arrow Haze	0
+Widowmaker	0
+The Seven Gates	0
+Dalkhu	0
+Sin Origin	0
+DragonForce	0
+Threshold	0
+UnSun	0
+Cormorant	0
+Miseration	0
+Devilish Impressions	0
+Oathbreaker	0
+Beltaine	0
+Onward	0
+A Pregnant Light	0
+Means End	0
+Artrosis	0
+Depressed Mode	0
+Blood Tsunami	0
+As You Drown	0
+Witchking	0
+The Undivine	0
+Dark Wings Syndrome	0
+Sinners Burn	0
+Accept	0
+Naglfar	0
+Abbath	0
+Dew-Scented	0
+Raunchy	0
+Enochian Crescent	0
+Otargos	0
+Black Space Riders	0
+Ossastorium	0
+A.M.S.G.	0
+Mephistopheles	0
+Butterfly Temple	0
+Forever Slave	0
+Cirith Gorgor	0
+Beneath	0
+Woman Is The Earth	0
+Thornafire	0
+Darkened Souls	0
+Skeleton Of God	0
+Omnium Gatherum	0
+Lordi	0
+Blackmore's Night	0
+The Cult	0
+Sulphur Aeon	0
+HDK	0
+Philip H. Anselmo & The Illegals	0
+Bosse-De-Nage	0
+Project Silence	0
+Abaton	0
+Methadone Skies	0
+Eye Of Solitude	0
+Germ	0
+Darksun	0
+Year Of Desolation	0
+Throneum	0
+Dawn Of Oblivion	0
+Skullhog	0
+Pain Of Salvation	0
+Doom:VS	0
+Shining (NOR)	0
+Tierra Santa	0
+Thy Majestie	0
+Heavy Load	0
+Portrait	0
+Cardiant	0
+Burning Circle	0
+Sammath Naur	0
+Aenygmist	0
+Mordbrand	0
+Fjoergyn	0
+Irminsul	0
+Den Saakaldte	0
+Zatokrev	0
+Thy Final Pain	0
+Deadalus	0
+Soijl	0
+Fear Factory	0
+Luca Turilli	0
+Toxik	0
+Secrets Of The Moon	0
+Ved Buens Ende	0
+Holocausto Canibal	0
+Razorwyre	0
+Catharsis	0
+Civilization One	0
+Saviours	0
+Aleph	0
+Morian	0
+InnerWish	0
+Lȧȧz Rockit	0
+Dezperadoz	0
+A Diadem Of Dead Stars	0
+Thy Primordial	0
+Dearly Beheaded	0
+Son Of A Bitch	0
+Decapitated	0
+Steve Vai	0
+Bilocate	0
+Arckanum	0
+Ava Inferi	0
+Insidious Decrepancy	0
+Sanctification	0
+Chain Reaction	0
+Comeback Kid	0
+Scelerata	0
+Anal Stench	0
+Myrah	0
+Soulsearch	0
+Life Of Agony	0
+Michael Schenker's Temple Of Rock	0
+FEJD	0
+Absurdist	0
+Tonic Breed	0
+Death Wolf	0
+Primordial	0
+Suicidal Tendencies	0
+ColdWorld	0
+Ereb Altor	0
+ETHS	0
+Judicator	0
+Scorpion Child	0
+Confessor	0
+Corporation 187	0
+Shadowgarden	0
+Anima Damnata	0
+N R C S S S T	0
+Soundcrawler	0
+Manes	0
+Mustasch	0
+Aeon Winds	0
+Total Fucking Destruction	0
+Deceiver	0
+Scar Symmetry	0
+Jeff Loomis	0
+Nasum	0
+Jungle Rot	0
+Extol	0
+Hangar	0
+Ketzer	0
+Sivyj Yar	0
+Diminished	0
+Crest Of Darkness	0
+Sithu Aye	0
+Aphonic Threnody	0
+Naamah	0
+Southern Empire	0
+Morgion	0
+Pillorian	0
+AfterBlood	0
+Dendritic Arbor	0
+Marduk	0
+Van Canto	0
+Lord Belial	0
+To-Mera	0
+Harakiri For The Sky	0
+Krypt	0
+Klabautamann	0
+Spires	0
+Discordance Axis	0
+Cynthesis	0
+Skyward	0
+Archon	0
+Triton Enigma	0
+Nasty Idols	0
+Spidergawd	0
+Olympos Mons	0
+Saviour Machine	0
+Aisling	0
+Diamonds Are Forever	0
+Alestorm	0
+A Forest Of Stars	0
+Deadlock	0
+Batushka	0
+Lord Mantis	0
+Marionette	0
+Lair Of The Minotaur	0
+Survivor	0
+Domovoyd	0
+Darkflight	0
+Sonne Adam	0
+Asmodeus (AUT)	0
+Tungsten	0
+Nebukadnezza	0
+Splitter	0
+Spineshank	0
+Sons Of Aeon	0
+Algaion	0
+Dodenkrocht	0
+Ulver	0
+The Sword	0
+Lazarus A.D.	0
+Bucovina	0
+Mutiny Within	0
+Minas Morgul	0
+Milking The Goatmachine	0
+Symbyosis	0
+Drautran	0
+Daylight Misery	0
+Soul Stealer	0
+At The Lake	0
+Uroboros	0
+Nerve End	0
+Starbreeze	0
+The 11th Hour	0
+Stone	0
+Amendfoil	0
+Dracena	0
+Ne Obliviscaris	0
+Galneryus	0
+Pathfinder	0
+Myrkgrav	0
+Repulsion	0
+Narjahanam	0
+Nasty Savage	0
+Temple Of Baal	0
+Echoterra	0
+Deep Mountains	0
+Stench	0
+Atrorum	0
+Vaee Solis	0
+Night Viper	0
+Stigmhate	0
+Thergothon	0
+The Prophecy	0
+Antichrisis	0
+Dryade	0
+Obscura	0
+Akercocke	0
+Thurisaz	0
+Panopticon	0
+Timeless Miracle	0
+Pryapisme	0
+Operation: Mindcrime	0
+The Safety Fire	0
+Eden Circus	0
+Divinity Destroyed	0
+Supreme Pain	0
+Avenger (Ger)	0
+Valhall	0
+Noctum	0
+Stranger Aeons	0
+Viathyn	0
+Toundra	0
+Apostate	0
+Dyscord	0
+Evergrey	0
+Edenbridge	0
+Angel Witch	0
+Sear Bliss	0
+Archgoat	0
+Scanner	0
+Riger	0
+Thrown To The Sun	0
+Enthrallment	0
+Dodsferd	0
+Take Over And Destroy	0
+Barishi	0
+Vandroya	0
+North (USA)	0
+Suffer Yourself	0
+Whyzdom	0
+Visceral Bleeding	0
+Assaulter	0
+Ectovoid	0
+Type O Negative	0
+Chthonic	0
+Demon Hunter	0
+Amiensus	0
+Disgorge	0
+Seraphim	0
+Scarpoint	0
+Unearthly Trance	0
+Evil Invaders	0
+Drakum	0
+The Disciples Of Zoldon	0
+Before Eden	0
+Venomous Maximus	0
+NunFuckRitual	0
+Sukekiyo	0
+Arthemesia	0
+Alarum	0
+Auriga	0
+El Comer Ocho	0
+Saturnus	0
+Parkway Drive	0
+Thy Light	0
+Cacophony	0
+Entombed A.D.	0
+Skylark	0
+Six Magics	0
+White Walls	0
+Fogalord	0
+Dreadful Shadows	0
+The Funeral Orchestra	0
+Beyond The Dust	0
+Verminous	0
+Oblivionized	0
+Sus Scrofa	0
+Coffins	0
+Battle Of Mice	0
+Averse Sefira	0
+Elgibbor	0
+Scorpions	0
+Poisonblack	0
+Aura Noir	0
+Hacride	0
+Impaled	0
+Sun Caged	0
+Solar Fragment	0
+Winter In Eden	0
+Heir Apparent	0
+Elixir	0
+The Levitation Hex	0
+Black Star Riders	0
+Virus IV	0
+Ocultan	0
+Sweet & Lynch	0
+Cryptic Wintermoon	0
+Bison B.C.	0
+Bestia Arcana	0
+Embers	0
+Windir	0
+Deafheaven	0
+Hell	0
+Ill Niño	0
+Shylmagoghnar	0
+Teramaze	0
+Tenet	0
+5ive	0
+Hjarnidaudi	0
+Enemy Of Reality	0
+Throane	0
+Blind Fury	0
+Voice Of The Soul	0
+Ogre	0
+Tears Of Mankind	0
+Deals Death	0
+Carnal Forge	0
+Black Shape Of Nexus	0
+Equinox	0
+Tiamat	0
+Kauan	0
+Obscure Sphinx	0
+Massacre	0
+Waylander	0
+The Blinded	0
+Trials	0
+Abiotic	0
+Horde	0
+Fistula	0
+Trist (CZE)	0
+Bloodmoon	0
+Vulcain	0
+One Step Beyond	0
+Temple Nightside	0
+Enslavement Of Beauty	0
+Demon	0
+Bloodtruth	0
+Erik Norlander	0
+Gorgoroth	0
+Thy Catafalque	0
+Earth	0
+Royal Thunder	0
+Abyssal	0
+Trist	0
+Vulcano	0
+Across The Sun	0
+Icon & The Black Roses	0
+Forgive Me	0
+Troldhaugen	0
+Brutart	0
+Walk Through Fire	0
+Op?a Opasnost	0
+The Atrocity Exhibit	0
+Hamferð	0
+Disincarnate	0
+Estoner	0
+Rainbow	0
+Kylesa	0
+Mr. Bungle	0
+The Monolith Deathcult	0
+Antestor	0
+What Mad Universe	0
+Wedard	0
+Aeon Of Horus	0
+Inner Sanctum	0
+Gnostic	0
+Twinspirits	0
+Cales	0
+By Night	0
+Warhorse	0
+Ordinul Negru	0
+The Coven	0
+Megaherz	0
+Eulen	0
+Akelei	0
+Evenmore	0
+Kataklysm	0
+Cathedral	0
+October Falls	0
+Adrenaline Mob	0
+Black Tusk	0
+Winterborn	0
+Akrea	0
+Iris	0
+Gridlink	0
+Chaos Inception	0
+Cancerous Womb	0
+Whales And Aurora	0
+Pain Principle	0
+The Drip	0
+Nanowar Of Steel	0
+Galloglass	0
+Appearance Of Nothing	0
+Jucifer	0
+Vanitas	0
+Norther	0
+Spawn Of Possession	0
+Wilderun	0
+Defeated Sanity	0
+Dionysus	0
+Xystus	0
+Ancestral Legacy	0
+Heaven Grey	0
+Code Orange	0
+Centimani	0
+WildeStarr	0
+Paramnesia	0
+Face Off	0
+The End	0
+Native Construct	0
+Harmony	0
+Battlesoul	0
+Latitudes	0
+Vexillum	0
+Savatage	0
+Dalriada	0
+Dreamtale	0
+Falloch	0
+Enthrope	0
+Betraying The Martyrs	0
+A Sound Of Thunder	0
+Antropomorphia	0
+Ignivomous	0
+Condor	0
+Chemical Breath	0
+Witheria	0
+Protean	0
+Fange	0
+The Iniquity Descent	0
+Raventale	0
+Headspace	0
+Loss (USA)	0
+We Are The Catalyst	0
+Guns N' Roses	0
+Misery Index	0
+Officium Triste	0
+Subrosa	0
+Imperia	0
+Bran Barr	0
+Ace Frehley	0
+Arwen	0
+Immensity	0
+Construcdead	0
+Church Of Void	0
+Wormwood	0
+Pure Inc	0
+Fatal Smile	0
+The Living Fields	0
+SpellBlast	0
+Hoth	0
+Memory Garden	0
+WHOURKR	0
+Dark Funeral	0
+Disarmonia Mundi	0
+Silencer	0
+The Human Abstract	0
+Jolly	0
+Cryptic Slaughter	0
+Agent Fresco	0
+Audrey Horne	0
+Insanity	0
+Crimson Wind	0
+Clairvoyants	0
+WRVTH	0
+Quinta Essentia	0
+Fire Trails	0
+The Nihilistic Front	0
+Three	0
+Indian	0
+Moonlight Agony	0
+Wishdoom	0
+Destruction	0
+Jorn	0
+Varg	0
+Year Of No Light	0
+Lost Society	0
+Dark Flood	0
+Arise	0
+Black Witchery	0
+Isvind	0
+CSSABA	0
+Collapse 7	0
+XXX Maniak	0
+Realmbuilder	0
+Flowing Tears & Withered Flowers	0
+The Poisoned Glass	0
+Amoral	0
+Naildown	0
+Mortals	0
+Yorblind	0
+After Forever	0
+Anorexia Nervosa	0
+Blackguard	0
+Battlecross	0
+Morgana Lefay	0
+Deathhammer	0
+Black Obelisk	0
+Blood Of Kingu	0
+Narrow House	0
+Jacobs Dream	0
+Dantalion	0
+Corrupt Moral Altar	0
+Zealotry	0
+Retriem	0
+Frowning	0
+The Senseless	0
+Coffinworm	0
+Prototype	0
+11 As In Adversaries	0
+Diablo Swing Orchestra	0
+Suicide Silence	0
+Forest Stream	0
+Clouds	0
+Skindred	0
+Evil Masquerade	0
+Cargo	0
+Canopy	0
+Nhor	0
+Kadavar	0
+Dark Forest (UK)	0
+Crescent Shield	0
+???????	0
+Revelation's Hammer	0
+Funerarium	0
+The Temple	0
+Desultory	0
+Sahg	0
+Lapis Lazuli	0
+A Night In Texas	0
+2 Wolves	0
+Leprous	0
+Born Of Osiris	0
+Terrorizer	0
+God Seed	0
+Virus	0
+Funeral Mourning	0
+Cock And Ball Torture	0
+Cronian	0
+Oak Pantheon	0
+Dead Eyed Sleeper	0
+Crowhurst	0
+Rudhira	0
+Geryon	0
+Thera Roya	0
+Dreadnought	0
+Spheric Universe Experience	0
+Litrosis	0
+Abstrakt Algebra	0
+Aabsynthum	0
+Death Angel	0
+Unearth	0
+Axxis	0
+Midnight Odyssey	0
+Borealis	0
+Ghost Ship Octavius	0
+Dark Buddha Rising	0
+Dark Quarterer	0
+Ordinance	0
+Deadborn	0
+Cruadalach	0
+Sadistic Gore	0
+Gjenferdsel	0
+Throes	0
+Faithful Darkness	0
+Votum	0
+Luctus	0
+Altar Of Betelgeuze	0
+Abscession	0
+As I Lay Dying	0
+Goatwhore	0
+Eyehategod	0
+Racer X	0
+Charred Walls Of The Damned	0
+Hanoi Rocks	0
+Darkwoods My Betrothed	0
+Desecravity	0
+Pandemia	0
+Death Dealer	0
+Cyanide Serenity	0
+Santo Rostro	0
+Gloson	0
+Tine	0
+Helheim	0
+Anti	0
+Lust Of Decay	0
+Anguish	0
+Abyssaria	0
+Borknagar	0
+Stream Of Passion	0
+Stormwarrior	0
+Thorns	0
+Crimson Shadows	0
+Inactive Messiah	0
+Diabolical	0
+Dylath-Leen	0
+Pantommind	0
+Defaced	0
+Danse Macabre	0
+Sarcofagus	0
+GodHateCode	0
+Tombstone	0
+Lascaille's Shroud	0
+Believer	0
+Khemmis	0
+Enforsaken	0
+Magnitude 9	0
+Apotheosis	0
+Adaliah	0
+Soulfly	0
+Onslaught	0
+Theatres Des Vampires	0
+White Wizzard	0
+Demonic Resurrection	0
+Dopethrone	0
+Ribspreader	0
+Demise	0
+Dawn Of Winter	0
+Scald (RUS)	0
+Grey	0
+Tony C	0
+Lingua Mortis Orchestra	0
+Byfrost	0
+Mind's Eye	0
+Ethereal Shroud	0
+Mastic Scum	0
+Asgaroth	0
+Aftershok	0
+DevilDriver	0
+Ulcerate	0
+Darkane	0
+Xentrix	0
+Evocation	0
+Dungeon	0
+Samsara Blues Experiment	0
+Deus Mortem	0
+De Arma	0
+Scarblade	0
+Grimpen Mire	0
+Totem	0
+Murmuüre	0
+Conan	0
+My Shameful	0
+Farsot	0
+Midnight Priest	0
+At War	0
+Ahamkara	0
+Groinchurn	0
+Strapping Young Lad	0
+Black Sun Aeon	0
+Gotthard	0
+Circle II Circle	0
+Helrunar	0
+Engraved Disillusion	0
+Savn	0
+Dhishti	0
+Death Strike	0
+Seamount	0
+Trauma (USA)	0
+Negative	0
+Cripper	0
+Nazgul	0
+Fear Of Eternity	0
+Morost	0
+Author & Punisher	0
+Altars	0
+Hadal Maw	0
+Anaal Nathrakh	0
+Nocturnal Rites	0
+Dan Swanö	0
+Exciter	0
+Ikuinen Kaamos	0
+Eternal Oath	0
+Sorcerer	0
+Dies Ater	0
+Decomposed	0
+Sedna	0
+Trial	0
+Rivers Of Nihil	0
+Defiance	0
+New Keepers Of The Water Towers	0
+Frantic Amber	0
+Nibiru	0
+Autolatry	0
+Desolation Angels	0
+Anal Blasphemy	0
+Head Phones President	0
+Delain	0
+Pelican	0
+Thunderstone	0
+Nails	0
+Klone	0
+Falling Leaves	0
+Soulitude	0
+Dis Pater	0
+Septic Death	0
+Triumvir Foul	0
+Skuggsjá	0
+Downfall Of Gaia	0
+Priestess	0
+Fungoid Stream	0
+Odyssea	0
+Balance Of Power	0
+DinUmbr?	0
+ANJ	0
+Hell's Thrash Horsemen	0
+Saxon	0
+Amberian Dawn	0
+Xerath	0
+Stryper	0
+Maximum The Hormone	0
+God Macabre	0
+Subversion	0
+Distillator	0
+Serpent Venom	0
+Tummler And Solomon	0
+Teitanblood	0
+Galar	0
+Red Harvest	0
+Golem	0
+Palms	0
+Black Oath	0
+Dol Theeta	0
+Apothecary	0
+Highgate	0
+Immolation	0
+Serenity	0
+Allen/Lande	0
+Urfaust	0
+Nadja	0
+He Came From The Sun	0
+Taak	0
+Double Dealer	0
+Shadow Of The Colossus	0
+Umbah	0
+The Red Chord	0
+Hypomanie	0
+Resurrection	0
+Headhunter	0
+Poverty's No Crime	0
+Blasphemophagher	0
+Duff McKagan's Loaded	0
+Arctic Winter	0
+Hordes Of The Lunar Eclipse	0
+Mors Principium Est	0
+Mar De Grises	0
+Savage Circus	0
+Exivious	0
+Otyg	0
+Hieronymus Bosch	0
+The Bereaved	0
+Dragonsfire	0
+Shaman (FIN)	0
+Union	0
+Abruptum	0
+Iommi	0
+Skitliv	0
+Himinbjorg	0
+Putrevore	0
+Bloodway	0
+Dynazty	0
+Arms	0
+Horncrowned	0
+Bullet For My Valentine	0
+Darkspace	0
+King Of Asgard	0
+Kroda	0
+Skogen	0
+Hyubris	0
+The Graviators	0
+earthtone9	0
+Shatterpoint	0
+Unru	0
+Carpe Noctem	0
+Mantic Ritual	0
+Sworn	0
+House Of Lords	0
+RandomWalk	0
+Chain Collector	0
+Ecferus	0
+Ass To Mouth	0
+Huron	0
+Ureas	0
+Steven Wilson	0
+Liquid Tension Experiment	0
+Pallbearer	0
+Northland	0
+Timo Tolkki's Avalon	0
+Krohm	0
+Timeghoul	0
+Easy Rider	0
+Silent Memorial	0
+Code	0
+Mechanical Poet	0
+The Forsaken	0
+Iniquity	0
+Rumpelstiltskin Grinder	0
+Changer	0
+Eden Weint Im Grab	0
+Atrium Noctis	0
+Ibex Angel Order	0
+Varga	0
+Drudkh	0
+The Sins Of Thy Beloved	0
+The Absence	0
+The Gentle Storm	0
+Vicious Rumors	0
+Lucifer	0
+Vengeful	0
+Ecliptica	0
+Sirocco	0
+Cryonic Temple	0
+Misery Signals	0
+Verjnuarmu	0
+Ironsword	0
+Seven Thorns	0
+Cold Cell	0
+Effloresce	0
+Axevyper	0
+Ilsa	0
+Vehement	0
+Queensrÿche	0
+Fallujah	0
+Voyager	0
+Bölzer	0
+Acid Witch	0
+Monarque	0
+Victory	0
+Eight Bells	0
+Slabdragger	0
+Faal	0
+Nazxul	0
+Vomit The Soul	0
+IXXI	0
+Silent Kingdom	0
+Corelia	0
+Emergency Gate	0
+Azoic	0
+Imperceptum	0
+Vermin	0
+Gormathon	NULL
+Obscurity	NULL
+Wayfarer	NULL
+Liturgy (US-NY)	NULL
+Silent Planet	NULL
+Corpus Mortale	NULL
+Eternal Majesty	NULL
+Azure Agony	NULL
+In Cauda Venenum	NULL
+Vin de Mia Trix	NULL
+Iron Maiden	NULL
+Alice Cooper	NULL
+Primus	NULL
+Kivimetsän Druidi	NULL
+Dødheimsgard	NULL
+Dark Forest	NULL
+Necrowretch	NULL
+Aberrant Vascular	NULL
+End Of The Dream	NULL
+Barghest	NULL
+Slow	NULL
+Regarde Les Hommes Tomber	NULL
+Malpractice	NULL
+So Much For Nothing	NULL
+Crown Of Autumn	NULL
+Evidence One	NULL
+Incapacitate	NULL
+Voices From Beyond	NULL
+Metallica	NULL
+The Faceless	NULL
+Airbourne	NULL
+Skálmöld	NULL
+Holy Moses	NULL
+Excalion	NULL
+Anthem	NULL
+Nordjevel	NULL
+Advent Of Bedlam	NULL
+Enemy Of The Sun	NULL
+Sonic Reign	NULL
+Iskald	NULL
+Shrinebuilder	NULL
+Messenger	NULL
+Soulburn	NULL
+Cut Up	NULL
+Executer	NULL
+Infernal Angels	NULL
+Volition	NULL
+Amon Amarth	NULL
+Primal Fear	NULL
+Grand Magus	NULL
+Agent Steel	NULL
+Lustre	NULL
+Heljareyga	NULL
+Brocas Helm	NULL
+Oakenshield	NULL
+Agrimonia	NULL
+D.C. Cooper	NULL
+Enthral	NULL
+Bellfast	NULL
+Sorrowful Angels	NULL
+Kawir	NULL
+Thanatos	NULL
+Morifade	NULL
+Stick To Your Guns	NULL
+Vuyvr	NULL
+KISS	NULL
+Flotsam And Jetsam	NULL
+Andromeda	NULL
+Nightfall	NULL
+Necrophagia	NULL
+Burning Point	NULL
+Once Human	NULL
+Aldious	NULL
+Fall Of The Idols	NULL
+Bill Ward	NULL
+Soulless	NULL
+Inimical	NULL
+Mournful Gust	NULL
+Su Ta Gar	NULL
+Falaise	NULL
+Wake	NULL
+Black Sabbath	NULL
+Skeletonwitch	NULL
+Limbonic Art	NULL
+Enthroned	NULL
+Cadaver	NULL
+Ossian	NULL
+Dauntless	NULL
+Fides Inversa	NULL
+Birth Through Gore	NULL
+Spaceking	NULL
+Intrinsic	NULL
+Today Is The Day	NULL
+Nominon	NULL
+Subliminal Fear	NULL
+Fate	NULL
+Children Of Bodom	NULL
+Wolves In The Throne Room	NULL
+Fen	NULL
+Mnemic	NULL
+Scarab	NULL
+Saltatio Mortis	NULL
+Channel Zero	NULL
+Panzerballett	NULL
+Arida Vortex	NULL
+Decrepitaph	NULL
+Fister	NULL
+Blackfinger	NULL
+Itnuveth	NULL
+Wormlust	NULL
+Omb	NULL
+The Dogma	NULL
+Feto In Fetus	NULL
+Blind Guardian	NULL
+Electric Wizard	NULL
+Corrosion Of Conformity	NULL
+Veil Of Maya	NULL
+The Great Old Ones	NULL
+Corpsessed	NULL
+Postmortem	NULL
+Bane Of Winterstorm	NULL
+Deluge	NULL
+Funerary	NULL
+Blackwood	NULL
+Standing Ovation	NULL
+Jesus Ain't In Poland	NULL
+Wistful	NULL
+Phideaux	NULL
+Pain Confessor	NULL
+The Great Deceiver	NULL
+Fogland	NULL
+Novembers Doom	NULL
+Halford	NULL
+Wisdom	NULL
+A Pale Horse Named Death	NULL
+Darkest Horizon	NULL
+Qutin	NULL
+Bestia	NULL
+Derelict Earth	NULL
+Glaciation	NULL
+Blood Stained Dusk	NULL
+K.F.R	NULL
+Witchrist	NULL
+Saurom	NULL
+Acherontas	NULL
+Pitchshifter	NULL
+The Soulless	NULL
+Fright Night	NULL
+Faith No More	NULL
+Mg?a	NULL
+Portal	NULL
+Words Of Farewell	NULL
+Aetherian	NULL
+Deinonychus	NULL
+Ramesses	NULL
+Born From Pain	NULL
+Die Like Gentlemen	NULL
+Gravecode Nebula	NULL
+Generation Kill	NULL
+Camel Of Doom	NULL
+Kalmankantaja	NULL
+Solstice	NULL
+Antediluvian	NULL
+Puteraeon	NULL
+The Wandering Midget	NULL
+Terror Empire	NULL
+Arch Enemy	NULL
+Falkenbach	NULL
+Whispered	NULL
+Agrypnie	NULL
+Dreamshade	NULL
+Disbelief	NULL
+Synarchy	NULL
+Divercia	NULL
+Handful Of Hate	NULL
+Cardinals Folly	NULL
+Kardashev	NULL
+Wood Of Suicides	NULL
+Troll	NULL
+Black Fast	NULL
+Radogost	NULL
+Thor	NULL
+God.Fear.None	NULL
+Carnal Lust	NULL
+The Arson Project	NULL
+Behemoth	NULL
+Taake	NULL
+Hate	NULL
+Fields Of The Nephilim	NULL
+Architects	NULL
+Gwydion	NULL
+Dominici	NULL
+The Wounded	NULL
+Clandestine Blaze	NULL
+Drottnar	NULL
+Hjel	NULL
+Khanus	NULL
+Wretch	NULL
+Wulfgar	NULL
+Celeste	NULL
+Sacred Steel	NULL
+Thy Worshiper	NULL
+Graveyard (ESP)	NULL
+Catarsis Incarne	NULL
+The Belonging	NULL
+Kreator	NULL
+Rob Zombie	NULL
+Vreid	NULL
+Lunatica	NULL
+Conquering Dystopia	NULL
+Inborn Suffering	NULL
+Eldritch	NULL
+Unshine	NULL
+Coram Lethe	NULL
+Dystopia	NULL
+Huldre	NULL
+Grima	NULL
+Kill Ritual	NULL
+WVRM	NULL
+Almafuerte	NULL
+Christ Agony	NULL
+Sanatorium	NULL
+Tysondog	NULL
+Eccentric Pendulum	NULL
+Chaos Magic	NULL
+The Earls Of Mars	NULL
+Insomnium	NULL
+Running Wild	NULL
+At Vance	NULL
+Devil Doll	NULL
+Man Must Die	NULL
+Enchant	NULL
+Crossfire	NULL
+Imber Luminis	NULL
+Gurd	NULL
+Kilmara	NULL
+Autumnblaze	NULL
+Crimson Moonlight	NULL
+Shadow	NULL
+Urt	NULL
+Ego Depths	NULL
+Chariot	NULL
+The Experiment No.Q	NULL
+Yautja	NULL
+Kamelot	NULL
+Carach Angren	NULL
+Royal Hunt	NULL
+Holy Grail	NULL
+ICS Vortex	NULL
+Mokoma	NULL
+Faanefjell	NULL
+Wayd	NULL
+Dagor Dagorath	NULL
+Imperial Triumphant	NULL
+Haeres	NULL
+Knelt Rote	NULL
+Christian Mistress	NULL
+Demians	NULL
+Shattered Skies	NULL
+Valkiria	NULL
+Elvenpath	NULL
+Christgrinder	NULL
+Yellow Eyes	NULL
+Helloween	NULL
+Baroness	NULL
+Suicidal Angels	NULL
+Mortiis	NULL
+Fragments Of Unbecoming	NULL
+(EchO)	NULL
+Darkend	NULL
+In The Company Of Serpents	NULL
+Krle?	NULL
+Destrage	NULL
+Dreamscape	NULL
+Soilent Green	NULL
+Vemod	NULL
+Empty Tremor	NULL
+Coliseum	NULL
+The Silent Wedding	NULL
+Your Chance To Die	NULL
+Epica	NULL
+Shape Of Despair	NULL
+Hellyeah	NULL
+Sargeist	NULL
+Warrant	NULL
+Haemorrhage	NULL
+Ahoora	NULL
+Deivos	NULL
+Incursed	NULL
+Hellfueled	NULL
+L'Hiver En Deuil	NULL
+King's X	NULL
+Frailty	NULL
+Sumac	NULL
+Encoffination	NULL
+Common Grave	NULL
+Theories	NULL
+?rec	NULL
+Lamb Of God	NULL
+Demons And Wizards	NULL
+Blackfield	NULL
+Mournful Congregation	NULL
+Azaghal	NULL
+Amederia	NULL
+Descend Into Despair	NULL
+Wallachia	NULL
+Ingrimm	NULL
+High Priest Of Saturn	NULL
+Legacy ID	NULL
+(In)Trance	NULL
+Gernotshagen	NULL
+Sylvaine	NULL
+Episode 13	NULL
+Coprolith	NULL
+Anathema	NULL
+Lacrimosa	NULL
+The 69 Eyes	NULL
+Tesla	NULL
+Budgie	NULL
+Anthriel	NULL
+Destructor	NULL
+Warrior	NULL
+Jarell	NULL
+Horizon Ablaze	NULL
+Tribune	NULL
+Licht- Und Schattensaiten	NULL
+9.7 Richter	NULL
+Nothgard	NULL
+Hatchet	NULL
+Tempel	NULL
+Crehated	NULL
+Eluveitie	NULL
+Masterplan	NULL
+Serj Tankian	NULL
+An Autumn For Crippled Children	NULL
+Vanishing Point	NULL
+Inanimate Existence	NULL
+Avec Tristesse	NULL
+Diskord	NULL
+Winter's Verge	NULL
+Julie Christmas	NULL
+Hybris	NULL
+Triumfall	NULL
+Lion Twin	NULL
+Absence Of The Sacred	NULL
+Pharaoh	NULL
+Liege Lord	NULL
+Thunder	NULL
+Eternal Elysium	NULL
+Crimson Sun	NULL
+Rammstein	NULL
+Ahab	NULL
+Hour Of Penance	NULL
+Helstar	NULL
+Wolf	NULL
+Ixion	NULL
+Jambinai	NULL
+Candiria	NULL
+Drone	NULL
+Wraith Of The Ropes	NULL
+Katavasia	NULL
+Ian Gillan	NULL
+Liquid Graveyard	NULL
+Aeturnus Dominion	NULL
+Scar The Martyr	NULL
+Lychgate	NULL
+Twilight Of The Gods	NULL
+Euphoric Defilement	NULL
+Crossbreed	NULL
+Mastodon	NULL
+Rage	NULL
+Nargaroth	NULL
+Nomans Land	NULL
+Kill Devil Hill	NULL
+E-an-na	NULL
+5 Star Grave	NULL
+Kenn Nardi	NULL
+In Twilight's Embrace	NULL
+Unwritten Pages	NULL
+Lucifixion	NULL
+Altars Of Grief	NULL
+Sunless Rise	NULL
+Magrudergrind	NULL
+Viking	NULL
+Fifth To Infinity	NULL
+Sepultura	NULL
+Suidakra	NULL
+Sanctuary	NULL
+Bonded By Blood	NULL
+Hardcore Superstar	NULL
+Rudra	NULL
+Leng Tch'e	NULL
+Cornerstone	NULL
+Ensoph	NULL
+Adversarial	NULL
+King Conquer	NULL
+Inspell	NULL
+Usurpress	NULL
+Luna Field	NULL
+Anger As Art	NULL
+Thrudvangar	NULL
+Misanthrope	NULL
+Weeping Birth	NULL
+Force Of Evil	NULL
+Dakesis	NULL
+Vaalnor	NULL
+Therion	NULL
+Slash	NULL
+Mortemia	NULL
+Spastic Ink	NULL
+Loch Vostok	NULL
+Décembre Noir	NULL
+Evenfall	NULL
+Airborn	NULL
+Kozeljnik	NULL
+Jaded Star	NULL
+Macabra	NULL
+Anmod	NULL
+Vale Of Pnath	NULL
+Wolvhammer	NULL
+Goat The Head	NULL
+Vardis	NULL
+Enslaved	NULL
+Marilyn Manson	NULL
+Sonic Syndicate	NULL
+Almah	NULL
+Avulsed	NULL
+Aborym	NULL
+Malefice	NULL
+Deranged	NULL
+Aletheian	NULL
+Laethora	NULL
+Kinetik	NULL
+Manimalism	NULL
+Apothesary	NULL
+Acheron	NULL
+Dead River Runs Dry	NULL
+Porcupine Tree	NULL
+I	NULL
+Kronos	NULL
+Church Of Misery	NULL
+Metal Allegiance	NULL
+Distorted Harmony	NULL
+6:33	NULL
+Fleshgore	NULL
+Allfader	NULL
+Lesbian	NULL
+L'Esprit Du Clan	NULL
+Masters Of Metal	NULL
+Arctic Spirits	NULL
+Bell Witch	NULL
+Rob Rock	NULL
+Deadly Mosh	NULL
+Villainy	NULL
+Godsmack	NULL
+Pig Destroyer	NULL
+Cobalt	NULL
+Crystal Viper	NULL
+Moonlyght	NULL
+Dragony	NULL
+A Million Dead Birds Laughing	NULL
+Gallows End	NULL
+Amestigon	NULL
+Haiduk	NULL
+Lord Agheros	NULL
+Laster	NULL
+Maudlin	NULL
+Arrest	NULL
+Biomechanical	NULL
+Shadowside	NULL
+HIM	NULL
+Incantation	NULL
+Divine Heresy	NULL
+Silent Stream Of Godless Elegy	NULL
+Destinity	NULL
+Mysticum	NULL
+Elysian	NULL
+Abstract Spirit	NULL
+Angel Blake	NULL
+Hate Meditation	NULL
+Love Sex Machine	NULL
+Lechery	NULL
+Mefitic	NULL
+Asofy	NULL
+Sombres Forêts	NULL
+Death Toll 80k	NULL
+Void Of Sleep	NULL
+Havok	NULL
+Anvil	NULL
+Twilight Force	NULL
+Divinefire	NULL
+After Oblivion	NULL
+Hacktivist	NULL
+Aoria	NULL
+Heavy Lord	NULL
+Lux Divina	NULL
+Let Me Dream	NULL
+Melencolia Estatica	NULL
+Avicularia	NULL
+Ekove Efrits	NULL
+Fleurety	NULL
+Defender	NULL
+Vox Tempus	NULL
+Evile	NULL
+Crowbar	NULL
+Nervecell	NULL
+Axenstar	NULL
+Falls Of Rauros	NULL
+Rose Tattoo	NULL
+Alaskan	NULL
+Heliosaga	NULL
+Artefact	NULL
+Hideous Divinity	NULL
+Lightning	NULL
+Merda Mundi	NULL
+Gloria Morti	NULL
+The Browning	NULL
+Fyrnask	NULL
+Despair (SYR)	NULL
+When Woods Make Graves	NULL
+Leaves' Eyes	NULL
+Oranssi Pazuzu	NULL
+Versailles	NULL
+Der Weg Einer Freiheit	NULL
+Girlschool	NULL
+Saattue	NULL
+Alunah	NULL
+Hellish Crossfire	NULL
+Aska	NULL
+Ilium	NULL
+Mammoth Storm	NULL
+Loss	NULL
+Kobra And The Lotus	NULL
+Turbo	NULL
+Hortus Animae	NULL
+Wilt	NULL
+Ancient Bards	NULL
+Crimfall	NULL
+Gnaw Their Tongues	NULL
+Hecate Enthroned	NULL
+Seance	NULL
+Anomalie	NULL
+Horisont	NULL
+Balrog	NULL
+InAeona	NULL
+Mass Hysteria	NULL
+Negator	NULL
+Vinnie Moore	NULL
+In Malice's Wake	NULL
+Majster Kat	NULL
+Deus X Machina	NULL
+Witchbound	NULL
+Heaven Shall Burn	NULL
+Fairyland	NULL
+Fractal Gates	NULL
+Lita Ford	NULL
+SSS	NULL
+Autumn's Dawn	NULL
+Behind The Scenery	NULL
+Just Before Dawn	NULL
+Miazma	NULL
+Mincing Fury And Guttural Clamour Of Queer Decay	NULL
+Nightbringer	NULL
+Voices	NULL
+Interment	NULL
+Dialectic Soul	NULL
+WIZ	NULL
+Freedom Call	NULL
+In The Woods...	NULL
+Lethian Dreams	NULL
+Menhir	NULL
+Morgul	NULL
+Thy Disease	NULL
+Blaakyum	NULL
+Infected Rain	NULL
+Bergraven	NULL
+Kataplexia	NULL
+Misteyes	NULL
+Mirror Of Deception	NULL
+Odious	NULL
+Act Of Defiance	NULL
+Jordan Rudess	NULL
+Maveth	NULL
+Dissension	NULL
+Wolvserpent	NULL
+High On Fire	NULL
+Stam1na	NULL
+Nifelheim	NULL
+Pomegranate Tiger	NULL
+Tystnaden	NULL
+Invocator	NULL
+Big End Bolt	NULL
+Morhana	NULL
+Monolith (GER)	NULL
+Poema Arcanus	NULL
+Aeveron	NULL
+Kadenzza	NULL
+Medico Peste	NULL
+Doctor Livingstone	NULL
+Worth Dying For	NULL
+Sylosis	NULL
+In This Moment	NULL
+Abysmal Dawn	NULL
+Schammasch	NULL
+Striker	NULL
+Vorna	NULL
+Cautiva	NULL
+Kamijo	NULL
+Lecherous Nocturne	NULL
+Mourning Mist	NULL
+Mor Dagor	NULL
+Sceptic	NULL
+Armory	NULL
+Kult Ov Azazel	NULL
+Black Bomb A	NULL
+Nachtvorst	NULL
+Menace	NULL
+Doyle	NULL
+Yogth Sothoth	NULL
+Elvenking	NULL
+U.D.O.	NULL
+DGM	NULL
+Uneven Structure	NULL
+Varathron	NULL
+Witch Mountain	NULL
+Cnoc An Tursa	NULL
+Kill The Client	NULL
+Lords Of The Trident	NULL
+Morgue Orgy	NULL
+Skagos	NULL
+Avrigus	NULL
+Lord Vampyr	NULL
+Black Steel	NULL
+Nailed To Obscurity	NULL
+Dramatvm	NULL
+11Paranoias	NULL
+Motor Sister	NULL
+Volbeat	NULL
+Communic	NULL
+Fair To Midland	NULL
+Cerebral Bore	NULL
+A Storm Of Light	NULL
+Lyria	NULL
+Maim	NULL
+Svartby	NULL
+Catafalque	NULL
+Lycus	NULL
+Bumblefoot	NULL
+Necronoclast	NULL
+Dysrider	NULL
+7 H. Target	NULL
+Mudbath	NULL
+Carpathian Forest	NULL
+Nightingale	NULL
+Dragged Into Sunlight	NULL
+Ancient Wisdom	NULL
+Alogia	NULL
+Dawn Of Azazel	NULL
+Manimal	NULL
+Manii	NULL
+Chthe'ilist	NULL
+Modern Day Babylon	NULL
+Buzzov?en	NULL
+Neosis	NULL
+Moth	NULL
+E-Force	NULL
+A New Dawn	NULL
+Mystica	NULL
+Falconer	NULL
+Deströyer 666	NULL
+Marty Friedman	NULL
+Hexen	NULL
+Demonoid	NULL
+Anonymus	NULL
+Dawnless	NULL
+Marriages	NULL
+Mendel	NULL
+Welicoruss	NULL
+Divinity	NULL
+Obsession	NULL
+Masacre (COL)	NULL
+Car Bomb	NULL
+Nordor	NULL
+Edgedown	NULL
+Absconditus	NULL
+Naga	NULL
+Unleashed	NULL
+Pentagram	NULL
+Mob Rules	NULL
+Downfall Of Nur	NULL
+Dee Snider	NULL
+Metallic Taste Of Blood	NULL
+Winger	NULL
+Dreamland	NULL
+Pathosray	NULL
+Melted Space	NULL
+Old Forest	NULL
+Necrite	NULL
+Ehnahre	NULL
+Adagio (BRA)	NULL
+Narwhal Tusk	NULL
+Gorguts	NULL
+Aeon	NULL
+Skinless	NULL
+Subway To Sally	NULL
+Katalepsy	NULL
+Atrox	NULL
+Zeal And Ardor	NULL
+Eyefear	NULL
+Moss	NULL
+Cerebral Fix	NULL
+Osmi Putnik	NULL
+Nevolution	NULL
+Against Nature	NULL
+Aborted	NULL
+Skyclad	NULL
+Mael Mórdha	NULL
+Bong	NULL
+Diathra	NULL
+My Enchantment	NULL
+Atlantean Kodex	NULL
+First Fragment	NULL
+Purtenance	NULL
+Nachtgeschrei	NULL
+Parricide	NULL
+No-Big-Silence	NULL
+Encorion	NULL
+Age Of Woe	NULL
+Nefandus	NULL
+Virgin Black	NULL
+X Japan	NULL
+Armored Saint	NULL
+Akphaezya	NULL
+On Thorns I Lay	NULL
+Bossk	NULL
+Disentomb	NULL
+Fuck The Facts	NULL
+Redwood Hill	NULL
+Neglected Fields	NULL
+Noein	NULL
+Phaze I	NULL
+Nonsun	NULL
+Epistasis	NULL
+Akem Manah	NULL
+Nekrokraft	NULL
+Joe Satriani	NULL
+Hail Spirit Noir	NULL
+For My Pain	NULL
+Cadaveria	NULL
+Cianide	NULL
+Disharmonic Orchestra	NULL
+Oath To Vanquish	NULL
+Gruesome	NULL
+Saga	NULL
+Crises	NULL
+Noothgrush	NULL
+Pilgrim	NULL
+Ocean Chief	NULL
+Eternal Sorrow	NULL
+Akhenaten	NULL
+Nightslug	NULL
+Dream Evil	NULL
+Mirrorthrone	NULL
+Dolorian	NULL
+David Maxim Micic	NULL
+Divine Empire	NULL
+Phazm	NULL
+Decadence	NULL
+Septycal Gorge	NULL
+Cruxifiction	NULL
+Noveria	NULL
+Ol Drake	NULL
+Exhausted Prayer	NULL
+Alien Syndrome 777	NULL
+Negur? Bunget	NULL
+Unisonic	NULL
+Thrawsunblat	NULL
+Hypno5e	NULL
+Viikate	NULL
+Devil You Know	NULL
+Dreaming Dead	NULL
+Plague Widow	NULL
+Dark Illusion	NULL
+Norilsk	NULL
+Dråpsnatt	NULL
+Istapp	NULL
+Obsidian Tongue	NULL
+Pyogenesis	NULL
+Omnerod	NULL
+Felony	NULL
+Alkoholizer	NULL
+Amaranthe	NULL
+Karnivool	NULL
+Teräsbetoni	NULL
+Dissimulation	NULL
+Dyscordia	NULL
+Primitive Graven Image	NULL
+Decayed	NULL
+Nyctophilia	NULL
+Agruss	NULL
+Eucharist	NULL
+One Machine	NULL
+Quartz	NULL
+Oruga	NULL
+Final Crusade	NULL
+Ancient Altar	NULL
+Quo Vadis	NULL
+Ouroboros	NULL
+Boris	NULL
+The Unguided	NULL
+Dust Bolt	NULL
+Sound Storm	NULL
+Ebonylake	NULL
+Ravage	NULL
+Ofdrykkja	NULL
+Aquaria	NULL
+Hammer Horde	NULL
+Nevid	NULL
+Overlorde	NULL
+Rage Of Romance	NULL
+Over Your Threshold	NULL
+Fornicus	NULL
+Angmaer	NULL
+Pestilence	NULL
+Vulture Industries	NULL
+Hibria	NULL
+Torture Killer	NULL
+Eldamar	NULL
+Spitfire	NULL
+Emeth	NULL
+Recueil Morbide	NULL
+Detrimentum	NULL
+Broken Hope	NULL
+Ingested	NULL
+Phantasma (NED)	NULL
+Railway	NULL
+Persephone's Dream	NULL
+Freitod	NULL
+Anima Tempo	NULL
+Cavalera Conspiracy	NULL
+Drowning Pool	NULL
+Manilla Road	NULL
+Vallendusk	NULL
+Eternal Deformity	NULL
+Fall Of Serenity	NULL
+Resurrected	NULL
+Disgorge (MEX)	NULL
+Crisix	NULL
+Kekal	NULL
+Rise Of Avernus	NULL
+Phoenix Rising	NULL
+Ripper	NULL
+Phantom Winter	NULL
+Frozen Winds	NULL
+Antlion	NULL
+Opened Paradise	NULL
+Be'lakor	NULL
+Origin	NULL
+Benediction	NULL
+Vallenfyre	NULL
+Aina	NULL
+Eventide	NULL
+Fjorsvartnir	NULL
+S.D.I.	NULL
+Dragobrath	NULL
+Fueled By Fire	NULL
+Leah	NULL
+Serious Black	NULL
+Profundi	NULL
+Scars Of Chaos	NULL
+Plateau Sigma	NULL
+Gateway To Selfdestruction	NULL
+Apathie	NULL
+Ordo Inferus	NULL
+Vintersorg	NULL
+Gwar	NULL
+Bloodbound	NULL
+Lyriel	NULL
+Golden Resurrection	NULL
+The Slow Death	NULL
+Gates Of Winter	NULL
+Sarissa	NULL
+Dysnomia	NULL
+Khold	NULL
+Paragon	NULL
+Supreme Majesty	NULL
+Radigost	NULL
+Sepsism	NULL
+Possession	NULL
+Genocide Shrines	NULL
+Arbitrator (CAN)	NULL
+Oubliette	NULL
+Stratovarius	NULL
+Fates Warning	NULL
+Crimson Glory	NULL
+Mortician	NULL
+Hallows Eve	NULL
+Thine Eyes Bleed	NULL
+Ghost Machinery	NULL
+Sister	NULL
+Eclipse Hunter	NULL
+Krux	NULL
+Planet Of Zeus	NULL
+The Wretched End	NULL
+Godkiller	NULL
+Raise Hell	NULL
+Serpentine Dominion	NULL
+Primal Rock Rebellion	NULL
+Ghost Voyage	NULL
+Armahda	NULL
+Overtures	NULL
+Witchcraft	NULL
+Ektomorf	NULL
+Skiltron	NULL
+Thy Darkened Shade	NULL
+Slumpark Correctional	NULL
+Embassy Of Silence	NULL
+Mitochondrion	NULL
+Slechtvalk	NULL
+Valtari	NULL
+Guillotine	NULL
+Resistance	NULL
+Prohod	NULL
+God Mother	NULL
+Arsh Anubis	NULL
+Paganize	NULL
+Carcass	NULL
+Kvelertak	NULL
+Otep	NULL
+Nocturnus AD	NULL
+Chrome Division	NULL
+Hevein	NULL
+Tomorrow's Eve	NULL
+Southern Cross	NULL
+Mortification	NULL
+Sun Of The Blind	NULL
+Heidra	NULL
+Fimbulvet	NULL
+Rising	NULL
+Shepherd	NULL
+Queiron	NULL
+As Autumn Calls	NULL
+Palace Of Worms	NULL
+Anthrax	NULL
+Sacred Reich	NULL
+Warrel Dane	NULL
+Folkearth	NULL
+Amogh Symphony	NULL
+Iron Reagan	NULL
+Trooper	NULL
+Spidkilz	NULL
+Nightmare	NULL
+The Few Against Many	NULL
+Irreversible Mechanism	NULL
+From The Vastland	NULL
+Ruthless	NULL
+Shok Paris	NULL
+Grave Upheaval	NULL
+Ashtar	NULL
+Paroxsihzem	NULL
+Meshuggah	NULL
+Dragonland	NULL
+Solitude Aeturnus	NULL
+Beneath The Massacre	NULL
+Kontinuum	NULL
+Khonsu	NULL
+Vanir	NULL
+Stabat Mater	NULL
+Protector	NULL
+Therapy?	NULL
+Fuck I'm Dead	NULL
+Scythian	NULL
+Rendezvous Point	NULL
+Griffar	NULL
+Astral Tears	NULL
+Pavor	NULL
+Septicflesh	NULL
+Revocation	NULL
+D.R.I.	NULL
+Bloodshot Dawn	NULL
+Canaan	NULL
+Kryptos	NULL
+Vendetta (GER)	NULL
+Times Of Grace	NULL
+Timo Tolkki	NULL
+Visceral Disgorge	NULL
+Gevolt	NULL
+Serpentine Path	NULL
+Spheron	NULL
+Revolted Masses	NULL
+Perpetual Fire	NULL
+Machine Head	NULL
+Artillery	NULL
+Forefather	NULL
+Derdian	NULL
+ShamRain	NULL
+Centinex	NULL
+Leatherwolf	NULL
+Thaw	NULL
+Haar	NULL
+Trick Or Treat	NULL
+Al-Namrood	NULL
+Gjallarhorn	NULL
+Skogmark	NULL
+Squash Bowels	NULL
+RoadkillSoda	NULL
+Axial Lead	NULL
+Phobonoid	NULL
+Within Temptation	NULL
+Arsis	NULL
+Vision Divine	NULL
+Halestorm	NULL
+The Duskfall	NULL
+Mastifal	NULL
+Luciferian Light Orchestra	NULL
+The Kindred	NULL
+Gonin-ish	NULL
+Haikai No Ku	NULL
+Pink Mass	NULL
+Vehemence	NULL
+Arakain	NULL
+Aarni	NULL
+Slivers Of Silence	NULL
+Stormhammer	NULL
+Baptists	NULL
+Exodus	NULL
+Dark Fortress	NULL
+Hollenthon	NULL
+Acid Drinkers	NULL
+Crystalic	NULL
+Lunaris	NULL
+Grey Widow	NULL
+Hegemone	NULL
+Plaguewielder	NULL
+Bornholm	NULL
+Anarchadia	NULL
+Somnus Aeternus	NULL
+Strikelight	NULL
+Sanctimony	NULL
+Bask	NULL
+Slipknot	NULL
+Daylight Dies	NULL
+Tribulation	NULL
+MaYaN	NULL
+Cloudkicker	NULL
+Enter Shikari	NULL
+Noble Beast	NULL
+Miasmal	NULL
+Hegemon	NULL
+Hemelbestormer	NULL
+Dirge	NULL
+Cage	NULL
+Aras	NULL
+Spelljammer	NULL
+Symphonic Destiny	NULL
+Sear	NULL
+Beaten Back To Pure	NULL
+Project: Roenwolfe	NULL
+Ayreon	NULL
+TesseracT	NULL
+Bring Me The Horizon	NULL
+Paradox	NULL
+Demonical	NULL
+Forgotten Tales	NULL
+Monolord	NULL
+Thrashless	NULL
+Hetroertzen	NULL
+Hourswill	NULL
+Evereve	NULL
+Crystal Eyes	NULL
+Backyard Babies	NULL
+Stillborn	NULL
+Teethgrinder	NULL
+Sektemtum	NULL
+Bersimbah Darah	NULL
+Pulsar Colony	NULL
+Gamma Ray	NULL
+Toxic Holocaust	NULL
+Metsatöll	NULL
+Ufomammut	NULL
+Grayceon	NULL
+P.H.O.B.O.S.	NULL
+Morton	NULL
+Homo Iratus	NULL
+Howling Syn	NULL
+Inferi	NULL
+Derek Sherinian	NULL
+Black Wreath	NULL
+Sweet Savage	NULL
+The Infernal Sea	NULL
+Bhleg	NULL
+Putrid Offal	NULL
+Hypocrisy	NULL
+Dordeduh	NULL
+Astral Doors	NULL
+Tank	NULL
+I Killed The Prom Queen	NULL
+Pitbulls In The Nursery	NULL
+Neuromist	NULL
+VI	NULL
+Horse Latitudes	NULL
+Kimaera	NULL
+Destroy Destroy Destroy	NULL
+Syrach	NULL
+Septic Mind	NULL
+Quiet Child	NULL
+Bloodbath	NULL
+Beyond Creation	NULL
+Scale The Summit	NULL
+Demilich	NULL
+Abominable Putridity	NULL
+Insision	NULL
+Ravenscry	NULL
+Nine Treasures	NULL
+Volahn	NULL
+Icycore	NULL
+Iluminato	NULL
+Minsk	NULL
+Elegy	NULL
+Tacit Fury	NULL
+The Ritual Aura	NULL
+Sexcrement	NULL
+Blade Of Spirit	NULL
+Reactor	NULL
+Manowar	NULL
+Def Leppard	NULL
+Blood Stain Child	NULL
+Hatesphere	NULL
+Arsames	NULL
+Karlahan	NULL
+Saille	NULL
+Cripple Bastards	NULL
+Nordheim	NULL
+Vorum	NULL
+In Each Hand A Cutlass	NULL
+Inciter	NULL
+Fozzy	NULL
+Terzij De Horde	NULL
+The Ugly	NULL
+Shadowdances	NULL
+Blliigghhtted	NULL
+Rex Mundi	NULL
+At The Gates	NULL
+Heavenly	NULL
+Intronaut	NULL
+Martyr	NULL
+Krieg	NULL
+Svart	NULL
+Devolved	NULL
+Opprobrium	NULL
+White Empress	NULL
+Interitus Dei	NULL
+Insane	NULL
+Orchid	NULL
+Hades Almighty	NULL
+This Gift Is A Curse	NULL
+Shining Fury	NULL
+Blustery Caveat	NULL
+Rhevan	NULL
+Mayhem	NULL
+Soundgarden	NULL
+Sinister	NULL
+Landmine Marathon	NULL
+The Elysian Fields	NULL
+Dream Death	NULL
+Ortega	NULL
+Wolfbrigade	NULL
+Jack Starr's Burning Starr	NULL
+Johansson & Speckmann	NULL
+Pro-Pain	NULL
+HolyHell	NULL
+Eidolon	NULL
+The Grotesquery	NULL
+Thy Wicked	NULL
+Sideburn	NULL
+Brainchoke	NULL
+Rintrah	NULL
+Avantasia	NULL
+Sigh	NULL
+Amaseffer	NULL
+Jon Oliva's Pain	NULL
+Myrkskog	NULL
+Trigger The Bloodshed	NULL
+Potentiam	NULL
+Young And In The Way	NULL
+JesusMartyr	NULL
+Karyn Crisis' Gospel Of The Witches	NULL
+Steelwing	NULL
+Lord	NULL
+Emyn Muil	NULL
+Undergang	NULL
+Sinister Realm	NULL
+Burnsred	NULL
+Ritual Chamber	NULL
+Summoning	NULL
+Clutch	NULL
+Brymir	NULL
+Darkwater	NULL
+Macbeth	NULL
+Netherbird	NULL
+Unmoored	NULL
+Razor Of Occam	NULL
+Zuul Fx	NULL
+Kall	NULL
+Subterranean Masquerade	NULL
+Obtest	NULL
+Explode	NULL
+Vagrant God	NULL
+Smallman	NULL
+Cadmium	NULL
+Overkill	NULL
+Gorod	NULL
+Darkseed	NULL
+Opera IX	NULL
+Majesty	NULL
+Octavia Sperati	NULL
+Vangough	NULL
+Scream Silence	NULL
+King Goat	NULL
+King's-Evil	NULL
+Abnormality	NULL
+Ram-Zet	NULL
+Gospel Of The Horns	NULL
+A Sense Of Gravity	NULL
+Valkyrie	NULL
+Sorathian Dawn	NULL
+Cara Neir	NULL
+Sacred Dawn	NULL
+Satyricon	NULL
+October Tide	NULL
+Gris	NULL
+Andre Matos	NULL
+Skyharbor	NULL
+Vendetta	NULL
+Sight Of Emptiness	NULL
+Kognitiv Tod	NULL
+Arafel	NULL
+Salem	NULL
+Profetus	NULL
+Abused Majesty	NULL
+Lilitu	NULL
+Tort	NULL
+Visceral Throne	NULL
+Sorrow Plagues	NULL
+Castrator	NULL
+Sage's Recital	NULL
+Darkthrone	NULL
+Seventh Wonder	NULL
+The Crown	NULL
+Diablo	NULL
+Withered	NULL
+Hermh	NULL
+Tales Of Dark...	NULL
+Korum	NULL
+Ashes You Leave	NULL
+Shakra	NULL
+Raubtier	NULL
+ADX	NULL
+Magenta Harvest	NULL
+Tulus	NULL
+Vortech	NULL
+Cat O' Nine Tails	NULL
+Saxorior	NULL
+Devin Townsend	NULL
+Violator	NULL
+Rotten Sound	NULL
+Cancer	NULL
+Zao	NULL
+Holy Knights	NULL
+The Poodles	NULL
+Dawn Of Demise	NULL
+Aethyr	NULL
+Men Eater	NULL
+Unseelie	NULL
+Squealer	NULL
+Kultika	NULL
+Cetacean	NULL
+Equilibrium	NULL
+Esoteric	NULL
+Necrophobic	NULL
+Winds Of Plague	NULL
+Entrails	NULL
+Ghost Bath	NULL
+To Cast A Shadow	NULL
+Sunrise	NULL
+Valient Thorr	NULL
+Ajdath	NULL
+Whispering Woods	NULL
+Stigma	NULL
+Last In Line	NULL
+Sea Bastard	NULL
+Edguy	NULL
+The Foreshadowing	NULL
+Vesania	NULL
+Civil War	NULL
+Noctem	NULL
+Behold The Arctopus	NULL
+Kistvaen	NULL
+Prostitute Disfigurement	NULL
+Angeldark	NULL
+Morphinist	NULL
+Velnezers	NULL
+Winterlong	NULL
+Stone Gods	NULL
+Liquorworks	NULL
+Cold Night For Alligators	NULL
+Selbst	NULL
+Riverside	NULL
+Deathstars	NULL
+The Kovenant	NULL
+Freak Kitchen	NULL
+Skull Fist	NULL
+Black Cobra	NULL
+Letzte Instanz	NULL
+Sadist	NULL
+Abyssic Hate	NULL
+Within Y	NULL
+Archivist	NULL
+Vhernen	NULL
+Wormreich	NULL
+Sumerlands	NULL
+Lonely Kamel	NULL
+Collide	NULL
+Self Spiller	NULL
+Turisas	NULL
+Iron Savior	NULL
+Persuader	NULL
+Nemesea	NULL
+Tracedawn	NULL
+Blinded By Faith	NULL
+Luna Ad Noctum	NULL
+ASP	NULL
+Agora	NULL
+Abidetherein	NULL
+Asgaard	NULL
+Myrkvar	NULL
+Wall Of Sleep	NULL
+Wound	NULL
+Syrens Call	NULL
+Lunar Path	NULL
+Conjuro Nuclear	NULL
+Shadow Of The Torturer	NULL
+Apocalyptica	NULL
+Svartsot	NULL
+Psychotic Waltz	NULL
+Aghora	NULL
+Butcher Babies	NULL
+Majestic	NULL
+Netra	NULL
+Torture Squad	NULL
+Blackthorn	NULL
+Arion	NULL
+Acid Reign	NULL
+Astral Sleep	NULL
+Wederganger	NULL
+Xul	NULL
+The Deathtrip	NULL
+Malrun	NULL
+Sheol	NULL
+Angra	NULL
+Caliban	NULL
+Ceremonial Castings	NULL
+Minority Sound	NULL
+Atra Vetosus	NULL
+Njiqahdda	NULL
+White Skull	NULL
+Christian Muenzner	NULL
+Arrayan Path	NULL
+Alpha Tiger	NULL
+Who Dies In Siberian Slush	NULL
+Yonder Realm	NULL
+The Lumberjack Feedback	NULL
+Maniac Butcher	NULL
+Crypt Of Kerberos	NULL
+Shtack	NULL
+Alice In Chains	NULL
+Ministry	NULL
+Hail Of Bullets	NULL
+Cinderella	NULL
+Dark Suns	NULL
+Consummatum Est	NULL
+Nebelhorn	NULL
+Bast	NULL
+Oblivion	NULL
+(V.E.G.A.)	NULL
+Marseille	NULL
+Age Of Silence	NULL
+Concerto Moon	NULL
+Atargatis	NULL
+Arbor	NULL
+Wide Eyes	NULL
+The Ox	NULL
+Daedalus	NULL
+Silence In The Grey	NULL
+Disturbed	NULL
+Oomph!	NULL
+Cor Scorpii	NULL
+Lock Up	NULL
+No Return	NULL
+Below	NULL
+Old Corpse Road	NULL
+24-7 Spyz	NULL
+Masterstroke	NULL
+Aosoth	NULL
+Death Breath	NULL
+Besatt	NULL
+Arsafes	NULL
+Wino	NULL
+The Skull	NULL
+Dark Covenant	NULL
+SinHeresY	NULL
+Lacuna Coil	NULL
+Grave	NULL
+Cult Of Fire	NULL
+Pensées Nocturnes	NULL
+Devilment	NULL
+Black Moth	NULL
+Order Of Orias	NULL
+A.I.(d)	NULL
+Mena Brinno	NULL
+Beyond The Black	NULL
+Bullet	NULL
+Bare Infinity	NULL
+Wolves Den	NULL
+The Weakening	NULL
+Darkall Slaves	NULL
+Skadika	NULL
+Arcturus	NULL
+Benighted	NULL
+Angelus Apatrida	NULL
+Nocturnal Depression	NULL
+ReinXeed	NULL
+Pegazus	NULL
+Oz	NULL
+Abaddon Incarnate	NULL
+Merkabah	NULL
+Callisto	NULL
+Gallhammer	NULL
+Coprofago	NULL
+Cadavrul	NULL
+Yayla	NULL
+Thought Machine	NULL
+DarkRise	NULL
+Skineater	NULL
+Obituary	NULL
+Alter Bridge	NULL
+Labyrinth	NULL
+The Fall Of Every Season	NULL
+The Man-Eating Tree	NULL
+Head Control System	NULL
+Porta Nigra	NULL
+Cans	NULL
+Sad	NULL
+Moon (POL)	NULL
+Glittertind	NULL
+Dawnbringer	NULL
+Your Shapeless Beauty	NULL
+Thunderbolt	NULL
+Dead Head	NULL
+Snailking	NULL
+Necrophagist	NULL
+Finsterforst	NULL
+Steel Panther	NULL
+After The Burial	NULL
+Transcending Bizarre?	NULL
+Highlord	NULL
+Psychostick	NULL
+Carnophage	NULL
+Celtachor	NULL
+Satanic Slaughter	NULL
+Ah Ciliz	NULL
+Funeralium	NULL
+Izegrim	NULL
+Device	NULL
+69 Chambers	NULL
+Deadspace	NULL
+Solisia	NULL
+Tristania	NULL
+Shadows Fall	NULL
+Tsjuder	NULL
+Thy Art Is Murder	NULL
+Warlord	NULL
+Howls Of Ebb	NULL
+Salamandra	NULL
+Celestial Season	NULL
+Colosso	NULL
+Scamp	NULL
+AnachroniA	NULL
+Kalevala	NULL
+Make Them Suffer	NULL
+Empyrios	NULL
+Abnormal Thought Patterns	NULL
+Death Mechanism	NULL
+Fleshgod Apocalypse	NULL
+Twisted Sister	NULL
+Brainstorm	NULL
+Elysion	NULL
+Before The Rain	NULL
+Intestine Baalism	NULL
+Sarpanitum	NULL
+Chris Caffery	NULL
+Contradiction	NULL
+Seven Sisters Of Sleep	NULL
+Angmar	NULL
+Soulslide	NULL
+Loits	NULL
+Moi Dix Mois	NULL
+Filter	NULL
+Ad Nauseam	NULL
+Torrens Conscientium	NULL
+Decease	NULL
+Candlemass	NULL
+Whitechapel	NULL
+Forgotten Tomb	NULL
+Jason Becker	NULL
+Euphoreon	NULL
+Guardians Of Time	NULL
+Seven Witches	NULL
+Crown	NULL
+Corpsefucking Art	NULL
+Silent Opera	NULL
+Antipope	NULL
+N.I.L.	NULL
+Sources Of I	NULL
+Misþyrming	NULL
+Odroerir	NULL
+Aethernaeum	NULL
+Total Negation	NULL
+Demonstealer	NULL
+Eternal Tears Of Sorrow	NULL
+Månegarm	NULL
+Beherit	NULL
+Remembrance	NULL
+Feared	NULL
+Heol Telwen	NULL
+King Parrot	NULL
+Soulgrind	NULL
+Crystalmoors	NULL
+Apostle Of Solitude	NULL
+Transient	NULL
+Nailed	NULL
+Sphere Of Souls	NULL
+Obsidian Kingdom	NULL
+Deos	NULL
+Annihilator	NULL
+Nuclear Assault	NULL
+Marillion	NULL
+Wolverine	NULL
+Impending Doom	NULL
+Kowai	NULL
+Spiritus Mortis	NULL
+Divlje Jagode	NULL
+Cytotoxin	NULL
+Smothered	NULL
+Tsar Bomba	NULL
+Natron	NULL
+Spirit Adrift	NULL
+Sinamore	NULL
+Alas	NULL
+Die Toten Kehren Wieder Mit Dem Wind	NULL
+Ghost	NULL
+All Shall Perish	NULL
+Dominia	NULL
+Black Tide	NULL
+Macabre	NULL
+Meliah Rage	NULL
+Liberteer	NULL
+Survivors Zero	NULL
+Dotma	NULL
+Dawn Of Silence	NULL
+Sorrows Path	NULL
+Assailant	NULL
+Unsilence	NULL
+Necromancing The Stone	NULL
+Spylacopa	NULL
+Sunburst	NULL
+Steelheart	NULL
+Ambush	NULL
+Cynic	NULL
+Caladan Brood	NULL
+Midnattsol	NULL
+Pink Cream 69	NULL
+Mystic Circle	NULL
+Mortifera	NULL
+Tarantula	NULL
+Ebony Ark	NULL
+Deadsquad	NULL
+StarGazer	NULL
+Atrament	NULL
+Urskumug	NULL
+Next To None	NULL
+Stickoxydal	NULL
+The Exploited	NULL
+The Howling Void	NULL
+Drag The Dead	NULL
+In Mourning	NULL
+Adagio	NULL
+Skyforger	NULL
+Rishloo	NULL
+Norma Jean	NULL
+Obscenity	NULL
+The Fading	NULL
+Ecnephias	NULL
+Devil	NULL
+Steve Grimmett's Grim Reaper	NULL
+Auspex	NULL
+Valborg	NULL
+Nightly Gale	NULL
+StoneLake	NULL
+Torche	NULL
+Dyecrest	NULL
+Korn	NULL
+Axel Rudi Pell	NULL
+Savage Messiah	NULL
+Universum	NULL
+Revenge	NULL
+Theudho	NULL
+Emir Hot	NULL
+Dodecahedron	NULL
+Svarti Loghin	NULL
+Baring Teeth	NULL
+Non Serviam	NULL
+Subliminal Crusher	NULL
+Weeping Silence	NULL
+Tremonti	NULL
+Armenia	NULL
+Ecliptyka	NULL
+Týr	NULL
+Inquisition	NULL
+Cephalic Carnage	NULL
+Wizard	NULL
+Archspire	NULL
+Seeds Of Iblis	NULL
+Saturnian	NULL
+Eudaimony	NULL
+Drakkar	NULL
+The Antichrist Imperium	NULL
+Bastard Sapling	NULL
+Vanisher	NULL
+Northern Plague	NULL
+Suicide Emotions	NULL
+Ásmegin	NULL
+Winter	NULL
+Audiovision	NULL
+Eden Sands	NULL
+Mercyful Fate	NULL
+Dark Angel	NULL
+Neurotech	NULL
+Brain Drill	NULL
+Engel	NULL
+Sex Machineguns	NULL
+Seth.ECT	NULL
+The Equinox Ov The Gods	NULL
+Before The Harvest	NULL
+Vermiform	NULL
+Nycticorax	NULL
+Surtr	NULL
+Botanist	NULL
+Barón Rojo	NULL
+Avenger	NULL
+Elderoth	NULL
+Psycroptic	NULL
+Abigail Williams	NULL
+Hannes Grossmann	NULL
+Striborg	NULL
+So Hideous	NULL
+Wilds Forlorn	NULL
+Graves At Sea	NULL
+Edge Of Serenity	NULL
+The Lamp Of Thoth	NULL
+Black Hole Generator	NULL
+Vinterblot	NULL
+Obsidian Sea	NULL
+Swamp Witch	NULL
+Crashdïet	NULL
+Benedictum	NULL
+Begrime Exemious	NULL
+Elusion	NULL
+Napalm Death	NULL
+The Dillinger Escape Plan	NULL
+Enforcer	NULL
+Horna	NULL
+Lindemann	NULL
+Sun Devoured Earth	NULL
+Space Odyssey	NULL
+Woe	NULL
+Hevisaurus	NULL
+Elizium	NULL
+The Rain I Bleed	NULL
+Odyssey	NULL
+Taka Minamino	NULL
+Dawn Of Destiny	NULL
+Black Like Vengeance	NULL
+Empire Auriga	NULL
+Rapture	NULL
+Jesu	NULL
+Killer Be Killed	NULL
+The Old Dead Tree	NULL
+The Bishop Of Hexen	NULL
+The Body	NULL
+Abgott	NULL
+Hope For The Dying	NULL
+Eternal Idol	NULL
+Blockheads	NULL
+Vorkreist	NULL
+Oleg Izotov	NULL
+Temple	NULL
+Elder	NULL
+Black Sheep Wall	NULL
+Ergot	NULL
+Killswitch Engage	NULL
+Into Eternity	NULL
+Prong	NULL
+Mekong Delta	NULL
+The Murder Of My Sweet	NULL
+Vredehammer	NULL
+Abske Fides	NULL
+Human Mincer	NULL
+Flagitious Idiosyncrasy In The Dilapidation	NULL
+Triumph	NULL
+Brothers Of The Sonic Cloth	NULL
+Waken Eyes	NULL
+Onirism	NULL
+Teodasia	NULL
+Ghoul	NULL
+Diamond Plate	NULL
+Bones	NULL
+Errorgeist	NULL
+Enshine	NULL
+Killing Joke	NULL
+Amenra	NULL
+Usurper	NULL
+Wastefall	NULL
+Illuminandi	NULL
+Fragile Vastness	NULL
+Twins Crew	NULL
+Caelestia	NULL
+Buried At Sea	NULL
+Orchid's Curse	NULL
+The Conjuration	NULL
+End Of You	NULL
+Eternal Mourning	NULL
+Suffocation	NULL
+Cain's Offering	NULL
+Throes Of Dawn	NULL
+Ataraxie	NULL
+Weedpecker	NULL
+Agonizer	NULL
+Innosense	NULL
+Graveyard Dirt	NULL
+Uncanny	NULL
+Cardamon	NULL
+Calvarium	NULL
+We All Die (Laughing)	NULL
+The Crescent	NULL
+Michael Angelo Batio	NULL
+Forsaken	NULL
+Alda	NULL
+Vanhelga	NULL
+Evil Survives	NULL
+Dying Fetus	NULL
+Forbidden	NULL
+Trees Of Eternity	NULL
+Black Crown Initiate	NULL
+Deceased	NULL
+Wolven Ancestry	NULL
+Alterbeast	NULL
+Harlott	NULL
+Celestial Decay	NULL
+Ex Dementia	NULL
+Narnia	NULL
+Grave Miasma	NULL
+Khthoniik Cerviiks	NULL
+Vesperia	NULL
+Sirenia	NULL
+Soen	NULL
+Disillusion	NULL
+Desaster	NULL
+Elysian Blaze	NULL
+4th Dimension	NULL
+Animations	NULL
+Collision	NULL
+Chasse-Galerie	NULL
+Wintersoul	NULL
+Phantom	NULL
+Fallen Yggdrasil	NULL
+The Howling Wind	NULL
+Nox Aurea	NULL
+Hatriot	NULL
+Los Random	NULL
+Vulvodynia	NULL
+Empyrium	NULL
+Evoken	NULL
+Mushroomhead	NULL
+Loudness	NULL
+Horrendous	NULL
+Borgne	NULL
+Ablaze My Sorrow	NULL
+Argus Megere	NULL
+Illuminata	NULL
+Conorach	NULL
+Church Bizarre	NULL
+Wooden Stake	NULL
+Psudoku	NULL
+Farseer	NULL
+The Konstellation	NULL
+Sinner	NULL
+Horseback	NULL
+Mastercastle	NULL
+Where Angels Fall	NULL
+Venom	NULL
+August Burns Red	NULL
+Rosetta	NULL
+Swashbuckle	NULL
+Infestus	NULL
+Cloudscape	NULL
+Acyl	NULL
+Astra (USA)	NULL
+Control Human Delete	NULL
+Circle Of Dust	NULL
+Wotan	NULL
+Pyrrhon	NULL
+Fever Sea	NULL
+The Local Band	NULL
+Spiral Architect	NULL
+Hunter	NULL
+Moby Dick	NULL
+Winterdome	NULL
+Avenged Sevenfold	NULL
+In Vain	NULL
+Trollfest	NULL
+XIV Dark Centuries	NULL
+Crystallion	NULL
+Anthelion	NULL
+Black Tongue	NULL
+Interitus	NULL
+Cryptborn	NULL
+Cognizance	NULL
+Reality Grey	NULL
+Fireproven	NULL
+The Order Of The Solar Temple	NULL
+Windhand	NULL
+Living Sacrifice	NULL
+Mordred	NULL
+Witchsorrow	NULL
+Absu	NULL
+Master	NULL
+Darkened Nocturn Slaughtercult	NULL
+Aurora Borealis	NULL
+Blood Feast	NULL
+J.B.O.	NULL
+Cult Of Occult	NULL
+Contrarian	NULL
+Yaotl Mictlan	NULL
+Resurrecturis	NULL
+Fondlecorpse	NULL
+The Ransack	NULL
+Blind Stare	NULL
+Yyl	NULL
+Ihsahn	NULL
+Dir En Grey	NULL
+Cannabis Corpse	NULL
+Eden's Curse	NULL
+Bonfire	NULL
+Nemertines	NULL
+Jig-Ai	NULL
+Cowards	NULL
+ZX Spectrum	NULL
+Funeral Moth	NULL
+The Steve Grimmett Band	NULL
+Regurgitate	NULL
+A Loathing Requiem	NULL
+Arkona	NULL
+Morbid Saint	NULL
+Dagoba	NULL
+Starkill	NULL
+Farshid Arabi	NULL
+Cemetery Of Scream	NULL
+Creation's End	NULL
+Nucleus Torn	NULL
+Dark Millennium	NULL
+Crimsonfire	NULL
+Romuvos	NULL
+Fury UK	NULL
+The Voynich Code	NULL
+Severed Savior	NULL
+Abhorrence	NULL
+Between The Buried And Me	NULL
+Sleep	NULL
+Threat Signal	NULL
+Heathen Foray	NULL
+Atrocity	NULL
+George Kollias	NULL
+Crysalys	NULL
+Crystal Ball	NULL
+Oracles	NULL
+Dead Raven Choir	NULL
+Crowned	NULL
+Sabachthani	NULL
+Ghoulgotha	NULL
+Third Storm	NULL
+Endstille	NULL
+Tokyo Blade	NULL
+Logar's Diary	NULL
+Adamantine	NULL
+Abramis Brama	NULL
+W.A.S.P.	NULL
+Forest Of Shadows	NULL
+Carnifex	NULL
+Powerglove	NULL
+Cancer Bats	NULL
+Hands Of Despair	NULL
+Darkology	NULL
+Dead To A Dying World	NULL
+Paganizer	NULL
+Deadly Carnage	NULL
+Curse	NULL
+Sandalinas	NULL
+Gloom	NULL
+Timo Komulainen	NULL
+Forest Silence	NULL
+Ade	NULL
+Lumus	NULL
+Abstracter	NULL
+Black Label Society	NULL
+Noumena	NULL
+Riot V	NULL
+Slough Feg	NULL
+Clawfinger	NULL
+Holocaust	NULL
+Delight	NULL
+Duskmourn	NULL
+Pantheon I	NULL
+Death Engine	NULL
+Saracen	NULL
+Tod Huetet Uebel	NULL
+Human Fortress	NULL
+Arch/Matheos	NULL
+Lvcifyre	NULL
+Aclla	NULL
+Terra Tenebrosa	NULL
+Tuatha De Danann	NULL
+Degradead	NULL
+Division By Zero	NULL
+Defecto	NULL
+Dark Domination	NULL
+Gorrch	NULL
+Tome Of The Unreplenished	NULL
+Le Grand Guignol	NULL
+Blaze Of Perdition	NULL
+Lonewolf	NULL
+Eschatos	NULL
+Malice	NULL
+Arachnes	NULL
+Admiral Sir Cloudesley Shovell	NULL
+Atheist	NULL
+Thin Lizzy	NULL
+Witchery	NULL
+Xanthochroid	NULL
+Echoes Of Eternity	NULL
+Dread Sovereign	NULL
+Sacred Oath	NULL
+Dawn On Sedna	NULL
+Scar Of The Sun	NULL
+Grimegod	NULL
+Longing For Dawn	NULL
+Catacombs	NULL
+Mortad	NULL
+Evertale	NULL
+Messiah's Kiss	NULL
+Astral Domine	NULL
+Agro	NULL
+Shining	NULL
+Battlelore	NULL
+Galadriel	NULL
+Earthside	NULL
+Satyrian	NULL
+Devil In The Kitchen	NULL
+Dead Instrument	NULL
+Sea Witch	NULL
+Totem Skin	NULL
+Count Raven	NULL
+My Sleeping Karma	NULL
+Faustcoven	NULL
+Moon	NULL
+Auroch	NULL
+Aion	NULL
+Gutfed	NULL
+The Gathering	NULL
+Lacrimas Profundere	NULL
+Isole	NULL
+Dawn Of Tears	NULL
+Hooded Menace	NULL
+Epidemia	NULL
+Sole Remedy	NULL
+Diadema Tristis	NULL
+Deathraiser	NULL
+Sectu	NULL
+Trauma Moralis	NULL
+Panzerchrist	NULL
+Darkest Era	NULL
+Nero Di Marte	NULL
+Mortal Decay	NULL
+Autokrator	NULL
+Amnis Nihili	NULL
+Hanternoz	NULL
+Ghost Brigade	NULL
+Heathen	NULL
+Deeds Of Flesh	NULL
+Lich King	NULL
+Kat	NULL
+Ex Libris	NULL
+Dirty Woman	NULL
+Seita	NULL
+Root	NULL
+Demonica	NULL
+Okera	NULL
+Fukpig	NULL
+Nydvind	NULL
+Avsky	NULL
+Destroying Divinity	NULL
+Ancestors Revenge	NULL
+Helion	NULL
+Watain	NULL
+Stolen Babies	NULL
+Magic Kingdom	NULL
+Funeral Tears	NULL
+Stille Volk	NULL
+Disaffected	NULL
+Serpent Omega	NULL
+Tulsadoom	NULL
+Fifth Angel	NULL
+Profane Omen	NULL
+Gaia Epicus	NULL
+Operatika Element	NULL
+Beautality	NULL
+Dissolution	NULL
+Antropophobia	NULL
+Heonia	NULL
+Vektor	NULL
+Converge	NULL
+40 Watt Sun	NULL
+Susperia	NULL
+Mouth Of The Architect	NULL
+Grand Supreme Blood Court	NULL
+Success Will Write Apocalypse Across The Sky	NULL
+Domains	NULL
+Severed	NULL
+Tyrant Eyes	NULL
+The Chasm	NULL
+Helltrain	NULL
+Reflexion	NULL
+Gyze	NULL
+Posthumous Blasphemer	NULL
+Blacklodge	NULL
+Down Among The Dead Men	NULL
+AraPacis	NULL
+Firewind	NULL
+Star One	NULL
+KMFDM	NULL
+Blood Ceremony	NULL
+Nocte Obducta	NULL
+Terhen	NULL
+Dragonauta	NULL
+Shallow Rivers	NULL
+Verdunkeln	NULL
+Inter Arma	NULL
+Semargl	NULL
+Hexx	NULL
+Project: Failing Flesh	NULL
+Blood Farmers	NULL
+Dungortheb	NULL
+Arkhe	NULL
+Horizon Of The Mute	NULL
+Samael	NULL
+Wolfheart	NULL
+Beseech	NULL
+Forever Storm	NULL
+Setherial	NULL
+Hourglass	NULL
+Driver	NULL
+Shannon	NULL
+Unrest	NULL
+Kipelov	NULL
+Son Of Aurelius	NULL
+Horn	NULL
+Quadrivium	NULL
+Bombs Of Hades	NULL
+Dyslesia	NULL
+Asguard	NULL
+Humanfly	NULL
+Entombed	NULL
+Legion Of The Damned	NULL
+Machinae Supremacy	NULL
+Kypck	NULL
+SOiL	NULL
+Konkhra	NULL
+Eastern Front	NULL
+Shredding The Envelope	NULL
+Cloak Of Altering	NULL
+The Atlas Moth	NULL
+In Lingua Mortua	NULL
+Rorcal	NULL
+Chainsaw	NULL
+Athelstan	NULL
+Husqvarna	NULL
+Valpurgis Night	NULL
+Xandria	NULL
+Tarot	NULL
+Ratt	NULL
+Raven	NULL
+Unanimated	NULL
+Lord Vicar	NULL
+Uada	NULL
+Echoes Of Yul	NULL
+Siren	NULL
+Criminal	NULL
+Mindplotter	NULL
+Ultra Vomit	NULL
+Iron Angel	NULL
+Sanctium	NULL
+Chrch	NULL
+Edenfall	NULL
+Aus Der Transzendenz	NULL
+Ides Of Winter	NULL
+Vassafor	NULL
+Animals As Leaders	NULL
+The Vision Bleak	NULL
+The Project Hate MCMXCIX	NULL
+Void Of Silence	NULL
+36 Crazyfists	NULL
+Mandrake	NULL
+Vermin Womb	NULL
+Edge Of Attack	NULL
+Skraeckoedlan	NULL
+Extreme Noise Terror	NULL
+Nasheim	NULL
+Vertigo Steps	NULL
+Shroud Of Bereavement	NULL
+Continuo Renacer	NULL
+Ellipsis	NULL
+Axewitch	NULL
+Immorior	NULL
+Verdun	NULL
+Powerwolf	NULL
+Witherscape	NULL
+Demolition Hammer	NULL
+My Silent Wake	NULL
+Visigoth	NULL
+Elferya	NULL
+Slidhr	NULL
