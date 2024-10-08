@@ -4,8 +4,8 @@ delimiter //
 CREATE TRIGGER update_valid_email AFTER UPDATE ON users
 FOR EACH ROW
 BEGIN
-    IF NEW.email != OLD.email
-        SET users.valid_email = 1;
+    IF NEW.email != OLD.email THEN
+        SET users.valid_email = 0;
     END IF;
 END//
 delimiter ;
