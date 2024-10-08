@@ -1,0 +1,3 @@
+// delete by match
+// https://www.mongodb.com/docs/mongodb-shell/crud/delete/
+db.school.deleteMany({ name: "Holberton school" });
