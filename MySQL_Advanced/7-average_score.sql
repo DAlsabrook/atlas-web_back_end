@@ -2,13 +2,13 @@
 
 DELIMITER //
 CREATE PROCEDURE ComputeAverageScoreForUser(
-    user_id int
+    IN user_id int
 )
 BEGIN
     DECLARE score_average FLOAT;
 
     SELECT AVG(score) INTO score_average FROM corrections
-    WHERE user_id = user_id;
+    WHERE user_id = IN user_id;
 
     UPDATE users
     SET average_score = score_average
