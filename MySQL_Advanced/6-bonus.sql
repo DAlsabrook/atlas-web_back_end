@@ -9,7 +9,7 @@ BEGIN
 
     SELECT id INTO project_id
     FROM projects
-    WHERE project.name = project_name;
+    WHERE name = project_name;
     IF project_id IS NULL THEN
         INSERT INTO projects (name) VALUES (project_name);
         SET project_id = LAST_INSERT_ID();
