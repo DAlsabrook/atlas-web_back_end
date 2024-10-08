@@ -3,4 +3,4 @@
 
 SELECT band_name, COALESCE(split, YEAR(CURDATE())) - formed AS lifespan FROM metal_bands
 ORDER BY lifespan DESC
-LIMIT 10;
+LIMIT 1;
