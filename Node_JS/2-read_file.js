@@ -1,15 +1,17 @@
 const fs = require('fs');
 
 function countStudents(path) {
+	let lineCount = 0;
+	const studentsInField = {};
+
   const file = fs.readFileSync(path, 'utf8', (err) => {
     if (err) {
       process.stdout('Cannot load the database');
     }
   }).trim();
-  let lineCount = 0;
-  const studentsInField = {};
   const fileLines = file.split('\n');
-  fileLines.slice(1).forEach((line) => {
+
+	fileLines.slice(1).forEach((line) => {
     lineCount += 1;
     const column = line.split(',');
     const field = column[3].trim();
@@ -20,9 +22,8 @@ function countStudents(path) {
     studentsInField[field].push(firstName);
   });
 
-  // process.stdout.write(JSON.stringify(studentsInField) + "\n")
   for (const [field, studentsList] of Object.entries(studentsInField)) {
-    process.stdout.write(`Number if students in ${
+    process.stdout.write(`Number of students in ${
       field
     }: ${
       studentsList.length
