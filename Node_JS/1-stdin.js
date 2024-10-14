@@ -1,4 +1,4 @@
-
+// Works when executed or echoed into
 process.stdout.write('Welcome to Atlas School, what is your name?\n');
 process.stdin.on('data', data => {
     data = data.toString().trim();

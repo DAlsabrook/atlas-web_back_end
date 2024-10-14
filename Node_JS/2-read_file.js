@@ -32,5 +32,6 @@ function countStudents(path) {
   }
   process.stdout.write(`Number of students: ${lineCount.toString()}\n`);
 }
+
 countStudents('./database.csv');
 module.exports = countStudents;
