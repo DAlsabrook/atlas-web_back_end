@@ -42,6 +42,7 @@ function countStudents(path, callback) {
 // Create the HTTP server
 const app = http.createServer((req, res) => {
   const path = url.parse(req.url).pathname;
+  const databaseName = process.argv[2];
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
 
@@ -49,7 +50,7 @@ const app = http.createServer((req, res) => {
     res.end('Hello Holberton School!');
   } else if (path === '/students') {
     res.write('This is the list of our students\n');
-    countStudents('./database.csv', (err, result) => {
+    countStudents(databaseName, (err, result) => {
       if (err) {
         res.end(err);
       } else {
