@@ -1,15 +1,14 @@
-const https = require('node:https');
-const fs = require('node:fs');
+const http = require('http');
 
-const options = {
-    key: fs.readFileSync('test/fixtures/keys/agent2-key.pem'),
-    cert: fs.readFileSync('test/fixtures/keys/agent2-cert.pem'),
-};
+const app = http.createServer((req, res) => {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello Holberton School!');
+}).listen(1245);
 
-https.createServer(options, (req, res) => {
-    res.writeHead(200);
-    res.end('hello world\n');
-}).listen(8000);
+module.exports = app;
 
-// got this to look at after work when i get home from:
+
+// got this to look at after work when i get home:
 // https://stackoverflow.com/questions/5998694/how-to-create-an-https-server-in-node-js
+// https://nodejs.org/api/https.html#httpscreateserveroptions-requestlistener
