@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "assert": "^2.1.0"
+    "assert": "^2.1.0",
+    "chai": "^5.1.1"
   },
   "devDependencies": {
     "mocha": "^10.7.3"
