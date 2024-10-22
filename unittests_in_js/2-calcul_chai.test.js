@@ -1,4 +1,5 @@
 const calculateNumber = require('./2-calcul_chai.js');
+// const expect = require('chai');
 
 async function runTests() {
     try {
