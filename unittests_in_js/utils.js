@@ -1,5 +1,5 @@
 const Utils = {
-    calculateNumber: (type, a, b) => {
+    calculateNumber: function(type, a, b) {
         const roundA = Math.round(a);
         const roundB = Math.round(b);
         const possibleTypes = {
@@ -11,9 +11,9 @@ const Utils = {
         if (type in possibleTypes) {
             return possibleTypes[type];
         } else {
-            return 'Error: Wrong type. Must use SUM, SUBTRACT, DIVIDE';
+            throw new Error('Invalid operation type');
         }
     }
-}
+};
 
 module.exports = Utils;
