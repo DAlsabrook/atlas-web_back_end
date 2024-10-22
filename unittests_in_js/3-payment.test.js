@@ -12,7 +12,7 @@ describe("sendPaymentRequestToApi", function () {
         sinon.restore();
     });
 
-    it("check if calculateNumber is called and math checks out", function () {
+    it("3: check if calculateNumber called and math checks out", function () {
         const consoleSpy = sinon.spy(console, 'log');
         sendPaymentRequestToApi(100, 20);
         assert(Utils.calculateNumber.calledWith('SUM', 100, 20));
