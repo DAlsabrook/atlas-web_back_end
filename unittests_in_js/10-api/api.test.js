@@ -32,7 +32,12 @@ describe('Index Page', () => {
 
     // Login route
     it('Normal login', (done) => {
-        request('http://localhost:7865/login/Tomas', (error, response, body) => {
+        request.post({
+            url: 'http://localhost:7865/login',
+            json: {
+                userName: 'Tomas'
+            }
+        }, (error, response, body) => {
             assert.strictEqual(body, 'Welcome Tomas');
             done();
         });
