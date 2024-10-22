@@ -2,6 +2,7 @@ const sinon = require("sinon");
 const sendPaymentRequestToApi = require('./4-payment.js');
 const Utils = require('./utils.js');
 const assert = require('assert');
+const { console } = require("inspector");
 
 describe("sendPaymentRequestToApi", function () {
 
@@ -16,6 +17,7 @@ describe("sendPaymentRequestToApi", function () {
         // check that the console has the correct output with the stub output
         assert(consoleSpy.calledWith('The total is: 10'));
         sinon.restore();
+        consoleSpy.restore();
     });
 
 });
