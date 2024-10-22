@@ -2,6 +2,8 @@ const request = require('request');
 const assert = require('assert');
 
 describe('Index Page', () => {
+
+    // Plain ol GET
     it('should return status code 200', (done) => {
         request('http://localhost:7865', (error, response, body) => {
             assert.strictEqual(response.statusCode, 200);
@@ -16,6 +18,7 @@ describe('Index Page', () => {
         });
     });
 
+    // Cart route
     it('should return the correct message with id', (done) => {
         request('http://localhost:7865/cart/123', (error, response, body) => {
             assert.strictEqual(body, 'Payment methods for cart 123');

@@ -13,6 +13,21 @@ app.get('/cart/:id', (req, res) => {
     return res.status(200).send(`Payment methods for cart ${id}`)
 })
 
+app.get('/available_payments', (req, res) => {
+    const paymentTypes = {
+        payment_methods: {
+            credit_cards: true,
+            paypal: false
+        }
+    };
+    return res.json(paymentTypes);
+});
+
+app.get('/login/:userName', (req, res) => {
+    const userName = req.params.userName;
+    return res.status(200).send(`Welcome ${userName}`)
+});
+
 app.listen(7865, () => {
     console.log('API available on localhost port 7865')
 });

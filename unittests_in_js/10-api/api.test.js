@@ -29,4 +29,28 @@ describe('Index Page', () => {
             done();
         });
     });
+
+    // Login route
+    it('Normal login', (done) => {
+        request('http://localhost:7865/login/Tomas', (error, response, body) => {
+            assert.strictEqual(body, 'Welcome Tomas');
+            done();
+        });
+    });
+
+    // Available payments route
+    describe('Available Payments', () => {
+        it('should return the correct payment methods', (done) => {
+            request('http://localhost:7865/available_payments', (error, response, body) => {
+                const expectedResponse = {
+                    payment_methods: {
+                        credit_cards: true,
+                        paypal: false
+                    }
+                };
+                assert.deepStrictEqual(JSON.parse(body), expectedResponse);
+                done();
+            });
+        });
+    });
 });
