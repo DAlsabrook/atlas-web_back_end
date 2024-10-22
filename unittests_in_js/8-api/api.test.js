@@ -1,15 +1,14 @@
 const request = require('supertest');
-const app = require('./api');
 
 describe('Index Page', () => {
     it('should return status code 200', (done) => {
-        request(app)
+        request('http://localhost:7865')
             .get('/')
             .expect(200, done);
     });
 
     it('should return the correct message', (done) => {
-        request(app)
+        request('http://localhost:7865')
             .get('/')
             .expect('Welcome to the payment system', done);
     });
