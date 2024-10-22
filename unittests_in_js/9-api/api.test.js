@@ -22,4 +22,11 @@ describe('Index Page', () => {
             done();
         });
     });
+
+    it('id is not a number', (done) => {
+        request('http://localhost:7865/cart/abc', (error, response, body) => {
+            assert.strictEqual(body, 'id must be a number');
+            done();
+        });
+    });
 });
