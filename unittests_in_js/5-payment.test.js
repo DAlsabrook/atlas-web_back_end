@@ -17,14 +17,14 @@ describe("sendPaymentRequestToApi", function () {
 
     it("5: Console only called once", function () {
         sendPaymentRequestToApi(100, 20);
-        assert(consoleSpy).calledOnce
+        assert(consoleSpy.calledOnce)
         // check that the console has the correct output with the stub output
         assert(consoleSpy.calledWith('The total is: 120'));
     });
 
     it("5: Check correct output using stub on calculateNumber", function () {
         sendPaymentRequestToApi(10, 10);
-        assert(consoleSpy).to.be.calledOnce
+        assert(consoleSpy.calledOnce)
         // check that the console has the correct output with the stub output
         assert(consoleSpy.calledWith('The total is: 20'));
     });
