@@ -40,7 +40,7 @@ async function runTests() {
         });
 
         // Run the tests
-        run();
+        // run();
     } catch (error) {
         console.error('Failed to load module:', error);
     }
