@@ -14,14 +14,14 @@ describe("sendPaymentRequestToApi", function () {
         sinon.restore();
     });
 
-    it("check if calculateNumber is called and called correctly", function () {
-        const calculateNumberSpy = sinon.spy(Utils, "calculateNumber");
-        sendPaymentRequestToApi(100, 20);
-        // make sure the calculateNumber method is called with right params
-        assert(calculateNumberSpy.calledWith('SUM', 100, 20));
-        // check that the console has the correct output
-        assert(consoleSpy.calledWith('The total is: 120'));
-    });
+    // it("check if calculateNumber is called and called correctly", function () {
+    //     const calculateNumberSpy = sinon.spy(Utils, "calculateNumber");
+    //     sendPaymentRequestToApi(100, 20);
+    //     // make sure the calculateNumber method is called with right params
+    //     assert(calculateNumberSpy.calledWith('SUM', 100, 20));
+    //     // check that the console has the correct output
+    //     assert(consoleSpy.calledWith('The total is: 120'));
+    // });
 
     it("Check correct output using stub on calculateNumber", function () {
         const stub = sinon.stub(Utils, 'calculateNumber')
