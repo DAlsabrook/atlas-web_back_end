@@ -15,4 +15,11 @@ describe('Index Page', () => {
             done();
         });
     });
+
+    it('should return the correct message with id', (done) => {
+        request('http://localhost:7865/cart/123', (error, response, body) => {
+            assert.strictEqual(body, 'Payment methods for cart 123');
+            done();
+        });
+    });
 });
