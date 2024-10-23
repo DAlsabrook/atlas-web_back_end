@@ -1,14 +1,20 @@
 {
-  "dependencies": {
-    "redis": "^4.7.0"
-  },
+  "name": "queuing_system_in_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "start": "babel-node 0-redis_client.js"
   },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^3.1.2"
+  },
   "devDependencies": {
-    "@babel/cli": "^7.25.9",
-    "@babel/core": "^7.25.9",
-    "@babel/node": "^7.25.9",
-    "@babel/preset-env": "^7.25.9"
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.5",
+    "@babel/preset-env": "^7.14.5"
   }
 }
