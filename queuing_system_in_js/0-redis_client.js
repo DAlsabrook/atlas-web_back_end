@@ -1,17 +1,23 @@
 import { createClient } from 'redis';
 
-const client = createClient();
+async function main() {
+    const client = createClient();
 
-// await client.connect();
+    // Handle connection events
+    client.on('connect', () => {
+        console.log('Redis client connected to the server');
+    });
 
-// Handle connection events
-client.on('connect', () => {
-    console.log('Redis client connected to the server');
-});
+    client.on('error', (err) => {
+        console.error('Redis client not connected to the server: ', err);
+    });
 
-client.on('error', (err) => {
-    console.error('Redis client not connected to the server: ', err);
-});
+    // await client.connect();
 
-// Close the connection
-client.quit();
+    // const value = await client.get('Holberton');
+    // console.log('Value:', value);
+
+    // await client.quit();
+}
+
+main().catch(console.error);
