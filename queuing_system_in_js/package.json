@@ -1,5 +1,14 @@
 {
   "dependencies": {
     "redis": "^4.7.0"
+  },
+  "scripts": {
+    "start": "babel-node 0-redis_client.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.25.9",
+    "@babel/node": "^7.25.9",
+    "@babel/preset-env": "^7.25.9"
   }
 }
