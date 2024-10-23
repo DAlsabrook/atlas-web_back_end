@@ -1,4 +1,4 @@
-import { print, createClient } from 'redis';
+import { createClient } from 'redis';
 
 const client = createClient();
 
@@ -12,12 +12,13 @@ client.on('error', (err) => {
 });
 
 async function setNewSchool(schoolName, value) {
-    await client.set(schoolName, value, print);
+    const setValue = await client.set(schoolName, value);
+    console.log('Reply:', setValue); // lol redis.print doesn't work
 }
 
 async function displaySchoolValue(schoolName) {
-    const value = await client.get(schoolName);
-    console.log(value);
+    const getValue = await client.get(schoolName);
+    console.log(getValue);
 }
 
 client.connect().then(() => {
