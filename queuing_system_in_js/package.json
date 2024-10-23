@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node 0-redis_client.js"
+    "dev": "babel-node"
   },
   "author": "",
   "license": "ISC",
